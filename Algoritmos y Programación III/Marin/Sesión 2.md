@@ -1,0 +1,1 @@
+La profe explica las pautas a tener en cuenta para realizar el seguimiento. Utilizar overleaf para hacer el ensayo (usando latex). Acuérdate de usar bien las referencias.
