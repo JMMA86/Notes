@@ -152,5 +152,3 @@ Cómo se debe garantizar la interacción entre la persona y la máquina. Para la
 ### Herramientas de diseño de software
 
 Son usadas para el soporte en la creación de el diseño de artefactos de software durante el proceso de desarrollo.
-
-![[Pasted image 20240808083736.png]]
