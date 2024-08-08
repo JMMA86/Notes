@@ -2,6 +2,7 @@
 - [x] Preparar la clase del 1 de agosto.
 - [x] Estudiar el test de Turing para el seguimiento que viene (como un ensayo). Con fuentes.
 - [ ] Terminar seguimiento (hasta el viernes).
+- [ ] Repasa las diapositivas de la última clase.
 
 ## Computación y Estructuras Discretas III
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
@@ -15,6 +16,7 @@
 - [x] Realizar tablero miro que mandó por correo (se hace en clase).
 - [x] Responder las preguntas de [Aspectos Claves de Diseño](https://www.icesi.edu.co/moodle/pluginfile.php/1066038/mod_page/content/232/SwArch-S3-AspectosClavesDise%C3%B1o.pdf).
 - [x] Preparar la próxima clase.
+- [ ] Leer la siguiente lectura y revisar el código de Ice (preguntar qué hacer con eso).
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).

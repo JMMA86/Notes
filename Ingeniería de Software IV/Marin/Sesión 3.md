@@ -1,5 +1,1 @@
 El grupo expone la segunda mitad del capítulo 2 del Swebok. Link:
-
-Arquitectura de software:
-Vistas Arquitectura:
-Estilos Arquitectura:
