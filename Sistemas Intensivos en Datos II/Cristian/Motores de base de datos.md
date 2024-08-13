@@ -197,9 +197,11 @@ El modelo que utiliza es cliente servidor, se crean 2 instancias separadas para 
 ##### Capas
 
 - **Procesos del servidor:** conexiones y comandos
-- **Memoria compartida:** gestioón de datos temporales
+- **Memoria compartida:** gestión de datos temporales
 - **Almacenamiento:** organización de datos en el disco
 - **Registro WAL:** para asegurar la durabilidad y recuperación de transacciones
 
 La base de datos tiene un diseño modular, lo que permite escalar con facilidad. La creación de scripts se puede hacer desde el administrador de Postgres.
+
+---
 
