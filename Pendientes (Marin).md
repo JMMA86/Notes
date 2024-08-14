@@ -1,8 +1,9 @@
 ## Algoritmos y Programación III
 - [x] Preparar la clase del 1 de agosto.
 - [x] Estudiar el test de Turing para el seguimiento que viene (como un ensayo). Con fuentes.
-- [ ] Terminar seguimiento (hasta el viernes).
-- [ ] Repasa las diapositivas de la última clase.
+- [x] Terminar seguimiento (hasta el viernes).
+- [x] Repasa las diapositivas de la última clase.
+- [ ] Leer el material de First-Order Predicate.
 
 ## Computación y Estructuras Discretas III
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
@@ -16,11 +17,12 @@
 - [x] Realizar tablero miro que mandó por correo (se hace en clase).
 - [x] Responder las preguntas de [Aspectos Claves de Diseño](https://www.icesi.edu.co/moodle/pluginfile.php/1066038/mod_page/content/232/SwArch-S3-AspectosClavesDise%C3%B1o.pdf).
 - [x] Preparar la próxima clase.
-- [ ] Leer la siguiente lectura y revisar el código de Ice (preguntar qué hacer con eso).
+- [x] Leer la siguiente lectura y revisar el código de Ice (preguntar qué hacer con eso).
+- [ ] Leer código de ética.
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
-- [ ] Revisar Intu (Semana 3).
+- [x] Revisar Intu (Semana 3).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
@@ -30,8 +32,8 @@
 - [x] Preparar la clase del 1 de agosto.
 - [x] Realizar la instalación de los programas de la guía.
 - [x] Instalar y poner a funcionar la base de datos de Intu.
-- [ ] Buscar la vista de arquitectura más detallada de SQL Server.
-- [ ] Ejemplo de cómo interactuar con los datos.
+- [x] Buscar la vista de arquitectura más detallada de SQL Server.
+- [x] Ejemplo de cómo interactuar con los datos.
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
