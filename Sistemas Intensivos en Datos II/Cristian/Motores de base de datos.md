@@ -61,7 +61,7 @@ Almacenar índices para búsqueda:
 
 ---
 
-### REDIS
+## REDIS
 
 SIsetma no relacional, usa clave valor y los datos se almacenan en memoria RAM, los datos son volátiles. Retorna rápidamente los datos que tiene almacenados como en una caché. Logra tiempos de $O(1)$ o $O(\log n)$, con la desventaja de perder datos. Permite trabajar con distinos tipos de datos a la vez.
 
@@ -80,7 +80,7 @@ Utiliza la técnica Sharding asignar grupos con hashes, se usa un algoritmo para
 
 ---
 
-### Cosmos DB
+## Cosmos DB
 
 Desarrollada por Microsoft, permite escalabilidad automática y arquitectura distribuida con réplicas, logrando  una baja latencia. Tiene 5 niveles de consistencia ajustable. Cumple con las propiedades ACID.
 
@@ -110,7 +110,7 @@ La conexión pasa por distintos puntos, desde el servidor hasta el cliente.
 
 ---
 
-### MongoDB
+## MongoDB
 
 Es más flexible, escalable y eficiente al usar un formato con estructura BSON (binary JSON), por lo que se relaciona con javascript. Su arquitetcutra es orientada a documentos, también puede ser usado como almacenamiento de archivos.
 
@@ -136,7 +136,7 @@ Usa el sharding para agrupar hashes. Mongo es flexible al usar c++, usa escalami
 
 ----
 
-### Dynamo
+## Dynamo
 
 Desarrollada por Amazon, es un servicio NoSQL, es muy rápida (tiempos de respuesta de menos de 10ms), tiene un esquema distribuido, donde existen réplicas en todas las regiones. Se usa  en la generación de tokens, comercio, estadísticas en juegos, o contenido de streaming.
 
@@ -159,7 +159,7 @@ Las conexiones se hacen porm medio de rails, que procesan las solicitudes y las 
 
 ---
 
-### Cassandra
+## Casandra
 
 Software NoSQL, almacena datso de forma distribuida a trabaes de servidores, lo que garantiza la disponibilidad. Creada por facebook, cuenta con buena tolerancia a fallos y disponibilidad, la consistencia se puede configurar.
 
@@ -181,4 +181,27 @@ Los datos se almacenan de forma descentralizada, por lo que no existen nodos que
 - Column Family: similar a una tabla
 - Key Space: conjunto de column families
 - Cluster: conjunto de máuquinas que operan como una entidad.
+
+---
+
+## Postgres
+
+- Soporte para datos completos
+- Herencia de tablas
+- Cumple con el ACID
+
+#### Arquitectura
+
+El modelo que utiliza es cliente servidor, se crean 2 instancias separadas para conectar a cliente y servidor en la misma máquina. Usa el estándar WAL (Write Ahead Logging) para asegurar la integridad de los datos.
+
+##### Capas
+
+- **Procesos del servidor:** conexiones y comandos
+- **Memoria compartida:** gestión de datos temporales
+- **Almacenamiento:** organización de datos en el disco
+- **Registro WAL:** para asegurar la durabilidad y recuperación de transacciones
+
+La base de datos tiene un diseño modular, lo que permite escalar con facilidad. La creación de scripts se puede hacer desde el administrador de Postgres.
+
+---
 
