@@ -20,8 +20,14 @@ sudo systemctl start docker
 **password:** sysadmin
 ### Como correr el SQL xe
 
+Versión no persistente:
 ```Bash
 sudo docker run --rm -d --name oracle-db -p 1512:1512 container-registry.oracle.com/database/express
+```
+
+Versión persistente:
+```Bash
+sudo docker run --mount type=bind,source=/home/osgomez/docker/volumes,target=/opt/oracle/oradata/XE -d --name oracle-db -p 1512:1512  container-registry.oracle.com/database/express
 ```
 
 ```Bash
@@ -35,18 +41,24 @@ sudo docker exec -it <nombre puesto en --name> bash -c "source /home/oracle/.bas
 
 ```Bash
 # Entrar a la consola de la base
-sudo docker exec -it <container-id> bash
+	sudo docker exec -it <container-id> bash
 ```
 
 ```bash
 # Entrar como admin
 sqlplus sys as sysdba
 ```
+
+![[Pasted image 20240815115142.png]]
 ### Detener el docker
 
 Obtener el container id de:
 ```Bash
 sudo docker ps -a
+```
+
+```Bash
+sudo docker rm <container-name>
 ```
 
 ```Bash
