@@ -3,7 +3,8 @@
 - [x] Estudiar el test de Turing para el seguimiento que viene (como un ensayo). Con fuentes.
 - [x] Terminar seguimiento (hasta el viernes).
 - [x] Repasa las diapositivas de la última clase.
-- [ ] Leer el material de First-Order Predicate.
+- [x] Leer el material de First-Order Predicate.
+- [x] Hacer los [ejercicios en clase]([Ejercicios Sesión 6 - APO III.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1IhCtKYDIlSkjRs1jpxe3YzxUORynt9Pr#scrollTo=HowKEZdIDgyj)).
 
 ## Computación y Estructuras Discretas III
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
@@ -18,15 +19,20 @@
 - [x] Responder las preguntas de [Aspectos Claves de Diseño](https://www.icesi.edu.co/moodle/pluginfile.php/1066038/mod_page/content/232/SwArch-S3-AspectosClavesDise%C3%B1o.pdf).
 - [x] Preparar la próxima clase.
 - [x] Leer la siguiente lectura y revisar el código de Ice (preguntar qué hacer con eso).
-- [ ] Leer código de ética.
+- [x] Leer código de ética.
+- [x] Realizar tarea 2 (actividad de ética profesional).
+- [x] Leer ISO19505.
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
 - [x] Revisar Intu (Semana 3).
+- [x] Revisar Intu (Semana 5).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
 - [x] Revisar Excel que mandó la profe por el tema de conversión de tasas.
+- [x] Realizar 20 ejercicios de conversión de tasa de interés.
+- [x] Ejercicios del 1 al 8 de VDT, de los cuales 5 están realizados y el 6 se planteó.
 
 ## Sistemas Intensivos en Datos II
 - [x] Preparar la clase del 1 de agosto.
@@ -34,6 +40,8 @@
 - [x] Instalar y poner a funcionar la base de datos de Intu.
 - [x] Buscar la vista de arquitectura más detallada de SQL Server.
 - [x] Ejemplo de cómo interactuar con los datos.
+- [x] Insertar datos y esquema.
+- [x] Hacer modelo entidad relación haciendo ingeniería inversa del esquema OT.
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
@@ -47,4 +55,4 @@
  - [ ] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
  - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
  - [ ] Revisar la verificación de cuentas (no llega el correo de verificación).
- - [ ] (OJS) Revisar problema con anuncios que no abre en producción.
+ - [x] (OJS) Revisar problema con anuncios que no abre en producción.
