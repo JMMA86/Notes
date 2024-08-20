@@ -12,3 +12,4 @@ $$
 (S\vee N)\land((\neg S\land N)\vee(P\land \neg S))\land(\neg N\vee P)
 $$
 
+Ejercicios del jueves: https://colab.research.google.com/drive/1IhCtKYDIlSkjRs1jpxe3YzxUORynt9Pr?usp=sharing
