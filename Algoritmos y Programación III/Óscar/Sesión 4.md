@@ -64,3 +64,5 @@ Y cuando llegas a C y ¬C por ejemplo llegas a las clausula vacía.
 
 ![[Pasted image 20240813103246.png]]
 
+![[Pasted image 20240821211417.png]]
+

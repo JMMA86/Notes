@@ -77,3 +77,5 @@ $nplazo = \frac{(ln(\frac{VF}{VP}))}{(ln(1+IP\%))}$
 
 ---
 
+Ejercicios de práctica:
+https://docs.google.com/spreadsheets/d/15Kar1xTnQvt_1cu1U-fEI8Tg_7rC7ildoOFgWF7lKDc/edit?usp=sharing
