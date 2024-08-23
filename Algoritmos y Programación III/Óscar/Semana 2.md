@@ -62,3 +62,6 @@ La razón por la que podemos decir que cuando $KB \models \alpha$ entonces $\mod
 Dado que las cosas que se tienen que demostrar recaen en una complejidad de $2^n$ tenemos que construir el algoritmo que encuentre $\alpha$ por medio de la contradicción.
 
 (Leer sobre el formato CNF y revisar el algoritmo de resolución)
+
+---
+

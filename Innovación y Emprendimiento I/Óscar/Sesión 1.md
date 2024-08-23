@@ -1,2 +1,0 @@
-#Innovación #Sesión #Welcum #Oscar
-
