@@ -40,6 +40,10 @@ Definiciones importantes:
 
 - **Software**: Unión entre estructuras de unidades de control y de comportamiento.
 
+- **Arquitectura**: Conjunto de componentes de software y las relaciones entre ellos.
+
+- **Componentes**: Parte modular de un sistema que encapsula su contenido y su manifestación es reemplazable sin su entorno.
+
 - **Ingeniería de Software**: Rama de la ingeniería que se ocupa del desarrollo sistemático, operación y mantenimiento de software, utilizando principios y prácticas de la ingeniería para asegurar que los productos de software sean fiables, eficientes y se ajusten a los requisitos especificados.
 
 - **Diseño de Software**: Proceso de definir la arquitectura, componentes, interfaces y otras características de un sistema o aplicación de software. Este proceso abarca desde la especificación de requisitos hasta la creación de diagramas y modelos detallados que guían la implementación del software.
@@ -49,6 +53,8 @@ Definiciones importantes:
 - **Diseño Arquitectónico**: Parte del proceso de diseño de software que se centra en la definición de la estructura y organización global del sistema. Incluye la identificación de los principales componentes del software y sus interacciones, así como las decisiones de diseño de alto nivel que afectan la forma en que el sistema cumple con sus requisitos.
 
 - **Diseño Detallado**: Fase del diseño de software que se ocupa de la especificación precisa de los componentes individuales del sistema. Incluye la descripción de algoritmos, estructuras de datos, interfaces y otros detalles técnicos necesarios para la implementación y verificación del software.
+
+- **Regla sintáctica**: Cómo se relacionan
 
 Diagramas realizados por el profesor:
 
