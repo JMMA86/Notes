@@ -1,4 +1,16 @@
-#Apo #Sesión #Oscar 
+#Apo #Sesión #Welcum #Oscar 
+
+IA's viejitas
+
+Can machines think?
+
+No
+
+Do machines emulates thinking?
+
+Yes
+
+---
 
 *Reglas por las que nos vamos a servir para crear las IA:*
 - **Comportamiento:** Se refiere a la interacción que puede tener con un entorno de forma inteligente.

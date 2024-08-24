@@ -3,7 +3,7 @@
 *Solo se obtiene una IP% vencida de una tasa efectiva.*
 
 1) IP% < Nominal (anual) < Efectivo (anual)
-2) Tasa IP% Anticipada < Tasa IP% Vencida 
+2) Tasa IP% Anticipada < Tasa IP% Vencida
 3) La tasa anticipada paga los intereses al inicio del periodo > No se acumulan en la cuenta > Entonces no se capitalizan > Entonces no hay aplicación exponencial porque el saldo no es creciente.
 
 ### Calculo de la tasa efectiva equivalente del 23.64% n.q.a
@@ -12,7 +12,7 @@
 
 (En un año hay 24 quincenas)
 
-**Para pasar a la tasa quincenal anual lo dividimos por las quincenas en un año:**
+**Para pasar a la tasa quincenal anticipada lo dividimos por las quincenas en un año:**
 $\frac{23,64\%}{24} = 0.985\%q.a$ 
 
 **Para el interés (en este caso quincenal) vencido:** $\frac{0.985\%}{(1 - 0.985\%)} = 0.9948\%q.v$  
@@ -77,3 +77,5 @@ $nplazo = \frac{(ln(\frac{VF}{VP}))}{(ln(1+IP\%))}$
 
 ---
 
+Ejercicios de práctica:
+https://docs.google.com/spreadsheets/d/15Kar1xTnQvt_1cu1U-fEI8Tg_7rC7ildoOFgWF7lKDc/edit?usp=sharing
