@@ -15,7 +15,6 @@ kanban-plugin: board
 
 ## Francés
 
-- [ ] Repasar números y frases en francés @{2024-08-20}
 
 
 ## Discretas
@@ -43,6 +42,8 @@ kanban-plugin: board
 - [ ] Leer el material de first-order predicate de apo @{2024-08-21}
 - [ ] "Leer" el iso19505 en ingesoft
 - [ ] Hacer el taller de ética de ingesoft
+- [ ] Repasar números y frases en francés @{2024-08-20}
+- [ ] Révise les thèmes et fais des exercices sur Quizlet!
 
 %% kanban:settings
 ```
