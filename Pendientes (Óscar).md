@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
@@ -28,6 +28,8 @@ kanban-plugin: board
 
 ## Innovación
 
+- [ ] Hacer los ejercicios que dejó sobre cuotas fijas
+- [ ] Organizar las fórmulas en un excel
 
 
 ***
@@ -47,6 +49,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false]}
+{"kanban-plugin":"list","list-collapse":[true,false,true,true,false,false]}
 ```
 %%
