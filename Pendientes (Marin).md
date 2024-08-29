@@ -5,10 +5,13 @@
 - [x] Repasa las diapositivas de la última clase.
 - [x] Leer el material de First-Order Predicate.
 - [x] Hacer los [ejercicios en clase]([Ejercicios Sesión 6 - APO III.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1IhCtKYDIlSkjRs1jpxe3YzxUORynt9Pr#scrollTo=HowKEZdIDgyj)).
+- [x] Hacer los ejercicios planteados al final de las diapositivas.
+- [x] Estudiar SLD y Resolución normal para el seguimiento.
 
 ## Computación y Estructuras Discretas III
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
 - [x] Realizar apuntes de la presentación del jueves a partir de diapositivas.
+- [x] Estudiar para el seguimiento.
 
 ## Ingeniería de Software IV
 - [x] Realizar mapa conceptual del capítulo 2 del Swebok.
@@ -22,17 +25,21 @@
 - [x] Leer código de ética.
 - [x] Realizar tarea 2 (actividad de ética profesional).
 - [x] Leer ISO19505.
+- [ ] Estudiar para el parcial (sábado 31).
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
 - [x] Revisar Intu (Semana 3).
 - [x] Revisar Intu (Semana 5).
+- [ ] Terminar proyecto final de corte.
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
 - [x] Revisar Excel que mandó la profe por el tema de conversión de tasas.
 - [x] Realizar 20 ejercicios de conversión de tasa de interés.
 - [x] Ejercicios del 1 al 8 de VDT, de los cuales 5 están realizados y el 6 se planteó.
+- [x] Estudiar para el Quiz del viernes.
+- [ ] Hacer 16 ejercicios de alícuotas para el miércoles (MFP).
 
 ## Sistemas Intensivos en Datos II
 - [x] Preparar la clase del 1 de agosto.
@@ -42,6 +49,8 @@
 - [x] Ejemplo de cómo interactuar con los datos.
 - [x] Insertar datos y esquema.
 - [x] Hacer modelo entidad relación haciendo ingeniería inversa del esquema OT.
+- [x] Crear el sinónimo.
+- [ ] Estudiar para el parcial (jueves 29).
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
@@ -54,5 +63,5 @@
  - [x] Cuando tengas tiempo, revisa el video y chambea.
  - [ ] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
  - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
- - [ ] Revisar la verificación de cuentas (no llega el correo de verificación).
+ - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
  - [x] (OJS) Revisar problema con anuncios que no abre en producción.
