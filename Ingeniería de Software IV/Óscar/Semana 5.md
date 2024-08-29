@@ -98,3 +98,11 @@ Component Diagram Example - C++ Code with versioning
 - Where possible, use tools to help you transform your logical design into a physical design.
 
 ![Component Diagram Modeling Physical Database](https://cdn-images.visual-paradigm.com/guide/uml/what-is-component-diagram/17-component-diagram-for-modeling-physical-db.png)
+
+---
+
+#Ingesoft #Oscar 
+
+- Por si acaso, el flujo de control de los diagramas de componentes van de izquierda a derecha.
+- Los componentes más re-utilizables son los que no tienen ninguna dependencia, es decir, los que no requieren de ninguna dependencia.
+

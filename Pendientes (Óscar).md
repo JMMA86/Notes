@@ -15,6 +15,8 @@ kanban-plugin: list
 
 ## Francés
 
+- [ ] Hacer el guión de francés para la presentación
+- [ ] Terminar el quizlet de ma famille et moi
 
 
 ## Discretas
@@ -24,12 +26,19 @@ kanban-plugin: list
 ## Intensivos
 
 - [ ] Parcial intensivos @{2024-08-29}
+- [ ] Hacer el curso de mongoDB @{2024-10-01}
 
 
 ## Innovación
 
 - [ ] Hacer los ejercicios que dejó sobre cuotas fijas
 - [ ] Organizar las fórmulas en un excel
+
+
+## Modelación
+
+- [ ] Leer periodo de gracia y periodo muerto: @{2024-08-30}
+- [ ] Hacer los ejercicios del parcial, fecha límite: @{2024-09-11}
 
 
 ***
@@ -49,6 +58,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[true,false,true,true,false,false]}
+{"kanban-plugin":"list","list-collapse":[true,true,false,true,true,true,true]}
 ```
 %%
