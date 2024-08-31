@@ -73,4 +73,30 @@ S \rightarrow aSb | \lambda \\
 \end{align}
 \right.
 $$
+---
+
+Writing FST with Pyformlang
+
+```Python
+from pyformlang.fst import FST
+
+transducer = FST()
+
+transducer.add_transitions([('q0', 'a', 'q1', ['x']),
+													('q1', 'a', 'q2', ['x']),
+													('q1', 'b', 'q2', ['y']),
+													('q2', 'a', 'q2', ['x']),
+													('q2', 'b', 'q2', ['y']),
+													('q2', 'b', 'q3', ['y'])])
+```
+
+Regular grammars (I write all the possibilities)
+$$
+G \left\{
+\begin{align}
+&S \rightarrow aS | bA | \lambda \\
+&A \rightarrow bA | \lambda
+\end{align}
+\right.
+$$
 

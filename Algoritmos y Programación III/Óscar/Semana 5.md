@@ -17,3 +17,57 @@ Por lo que se ve, se pueden eliminar los cuantificadores reemplazando las variab
 
 La razón por la que necesito quitar cuantificadores sobre algo es para disminuir el espacio de búsqueda.
 
+---
+
+# Resolución utilizando substitución
+
+### Mesa giratoria 1
+
+*Como poner los cuantificadores a la izquierda*
+
+$$
+\begin{align}
+&(\forall_x P(x)) \implies \exists_y Q(y)\\
+&\neg \forall_x P(x) \lor \exists_y Q(y)\\
+&\exists_x \neg P(x) \lor \exists_y Q(y)\\
+&\exists_x \exists_y (P(x) \implies Q(y))
+\end{align}
+$$
+
+## Estrategias para reducir el espacio de búsqueda
+### Unit resolution
+
+Prioritizes resolution steps in with one the two clauses consist of only one literal, called a unit clause.
+
+### Support strategy
+
+One obtains a guaranteed reduction of the search space by application of the set of support strategy.
+
+Here a subset of $KB \land \neg Q$ is defined as the set of support (SOS)
+
+The problem here is this is not complete.
+
+### The pure literal rule
+With the pure literal rule all clauses that contain literals for which there are no complementary literals in other clauses can be deleted.
+
+### Subsumption
+
+If the literals of a clause $K_1$ represent a subset of the literals of the clause $K_2$, then $K_2$ can be deleted.
+
+---
+
+### Ejercicios
+
+Unify (if possible) the following terms and give the MGU and the resulting terms.
+$$
+\begin{align}
+p(x, f(y)), p(f(z), u) \implies p(f(z), f(y))
+\end{align}
+$$
+
+![[Pasted image 20240829102659.png]]
+
+## Monotonicity
+
+![[Pasted image 20240829104347.png]]
+

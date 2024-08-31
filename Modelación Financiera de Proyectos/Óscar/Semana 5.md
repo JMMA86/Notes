@@ -36,3 +36,17 @@ $\text{Saldo VP mom 0} < \text{Saldo del crédito después PG}$
 
 - $VA_{PG} = VP*\frac{ip\% * (1+ip\%)^{nplazo}}{(1 + ip\%)^{nplazo - PG} - 1}$
 
+---
+
+**refinitiv:** software de análisis financiero de empresas.
+
+| **Velas japonesas:** Método para especular.                     | ![[Drawing 2024-08-30 09.37.13.excalidraw]]  |
+| --------------------------------------------------------------- | -------------------------------------------- |
+| El petroleo es uno de los sectores más capitalizados del mundo. | ![[Semana 5 2024-08-30 09.38.34.excalidraw]] |
+
+---
+
+Ejercicios de PG y PM
+
+https://docs.google.com/spreadsheets/d/1nctYHXWKVLuZTOt1-HishwZXzg0JTg4c1fr94VMmmJA/edit?gid=0#gid=0
+
