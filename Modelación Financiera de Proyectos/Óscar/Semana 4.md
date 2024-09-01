@@ -103,3 +103,15 @@ Es un periodo en el que no se realizan pagos pero si se contabilizan intereses.
 
 ![[Pasted image 20240822225331.png]]
 
+---
+
+> Para un ahorro se usa una alícuota con valor futuro.
+> Con un crédito o préstamo se usa el valor presente.
+
+![[Pasted image 20240823092745.png]]
+
+
+### Ejercicios de alícuotas
+
+https://docs.google.com/spreadsheets/d/1mFqp6WEyNk45NN3M9GQ68ZAqbRhq2CvL1VS2oDedqSw/edit?gid=0#gid=0
+

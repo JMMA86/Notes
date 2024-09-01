@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
@@ -15,7 +15,8 @@ kanban-plugin: board
 
 ## Francés
 
-- [ ] Repasar números y frases en francés @{2024-08-20}
+- [ ] Hacer el guión de francés para la presentación
+- [ ] Terminar el quizlet de ma famille et moi
 
 
 ## Discretas
@@ -25,10 +26,19 @@ kanban-plugin: board
 ## Intensivos
 
 - [ ] Parcial intensivos @{2024-08-29}
+- [ ] Hacer el curso de mongoDB @{2024-10-01}
 
 
 ## Innovación
 
+- [ ] Hacer los ejercicios que dejó sobre cuotas fijas
+- [ ] Organizar las fórmulas en un excel
+
+
+## Modelación
+
+- [ ] Leer periodo de gracia y periodo muerto: @{2024-08-30}
+- [ ] Hacer los ejercicios del parcial, fecha límite: @{2024-09-11}
 
 
 ***
@@ -43,9 +53,11 @@ kanban-plugin: board
 - [ ] Leer el material de first-order predicate de apo @{2024-08-21}
 - [ ] "Leer" el iso19505 en ingesoft
 - [ ] Hacer el taller de ética de ingesoft
+- [ ] Repasar números y frases en francés @{2024-08-20}
+- [ ] Révise les thèmes et fais des exercices sur Quizlet!
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false]}
+{"kanban-plugin":"list","list-collapse":[true,true,false,true,true,true,true]}
 ```
 %%
