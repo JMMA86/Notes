@@ -64,3 +64,5 @@
 	- Computación
 	- Networking
 	- Memoria
+- **SGA**
+	- System Global Area
