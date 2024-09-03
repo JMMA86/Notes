@@ -1,4 +1,4 @@
-#flashcards
+#parcial
 En PostgreSQL, ¿cuál es el papel del Postmaster en la arquitectura del servidor?
 a. Gestiona las conexiones de clientes y coordina los procesos del servidor.
 b. Administra el almacenamiento en el disco.
@@ -117,8 +117,7 @@ La aerolínea opera un sistema de ventas de pasajes aéreos para gestionar reser
 Con el crecimiento continuo de la demanda y el aumento de consultas de disponibilidad de vuelos, el rendimiento del sistema ha comenzado a verse afectado. Las consultas, especialmente aquellas relacionadas con la disponibilidad de asientos, experimentan tiempos de respuesta más lentos.
 Durante las horas pico, el sistema experimenta un aumento significativo en la carga concurrente debido a la alta demanda de reservas y consultas de vuelos.
 ¿Cómo se podría mejorar el rendimiento en las consultas relacionadas con los vuelos disponibles entre una
-ciudad A y B?  Cual de los siguientes métodos de acceso serıa el de menor costo al hacer una consulta sobre
-la tabla VUELOS:
+ciudad A y B?  Cual de los siguientes métodos de acceso serıa el de menor costo al hacer una consulta sobre la tabla VUELOS:
 a. Table access by ROWID
 b. Full Scan Table
 c. Index unique scan
@@ -246,3 +245,72 @@ recuperación de datos al proporcionar un acceso más eficiente a las filas de u
 1. Índice
 2. ROWID
 3. Afinamiento
+
+¿Cuál de las siguientes afirmaciones describe mejor la cantidad de procesos PostgreSQL que se ejecutan en un servidor PostgreSQL?
+a. Se ejecuta un único proceso de PostgreSQL para todas las conexiones de cliente.
+b. Se ejecuta un proceso de PostgreSQL por cada consulta que se realiza en el servidor.
+c. Se ejecuta un proceso de PostgreSQL por cada base de datos alojada en el servidor.
+d. Se ejecutan múltiples procesos de PostgreSQL, incluyendo el proceso postmaster y varios procesos de backend para manejar consultas y transacciones.
+?
+Se ejecutan múltiples procesos de PostgreSQL, incluyendo el proceso postmaster y varios procesos de backend para manejar consultas y transacciones.
+
+¿Cuáles son los tres niveles de abstracción de datos mencionados?
+a. Nivel primario, nivel secundario, nivel terciario
+b. Nivel de usuario, nivel de seguridad, nivel de administración
+c. Ninguna de las anteriores
+d. Nivel de vistas, nivel lógico, nivel físico
+?
+Nivel de vistas, nivel lógico, nivel físico
+
+¿Cuál es el papel del Redo Log Buffer en la arquitectura de Oracle?
+a. Almacena información sobre la estructura lógica de las tablas.
+b. Gestiona la creación de tablas temporales.
+c. Almacena cambios de datos temporales antes de que se escriban en los archivos de Redo Log.
+d. Ninguna es correcta
+e. Controla el acceso a la PGA.
+?
+Almacena cambios de datos temporales antes de que se escriban en los archivos de Redo Log.
+
+Una vista es una tabla virtual en la que se restringe exclusivamente el número de filas y las columnas a ser vistas.
+Verdadero
+Falso
+?
+Falso
+
+¿Cuál es la importancia de la disponibilidad como atributo de calidad en una base de datos?
+a. Garantiza que los datos sean precisos.
+b. Mejora el rendimiento de las consultas
+c. Ninguna es correcta
+d. Asegura que los usuarios autorizados puedan acceder a la base de datos cuando lo necesiten.
+e. Evita la redundancia de datos.
+?
+Asegura que los usuarios autorizados puedan acceder a la base de datos cuando lo necesiten.
+
+¿Cuál de las siguientes afirmaciones describe correctamente un posible motivo para reescribir esta consulta?
+```SQL
+SELECT productos.nombre, SUM(totalventa) AS total_ventas
+FROM productos p
+JOIN ventas ON productos.id = ventas.producto_id
+JOIN categorias ON productos.categoria = categoria_id
+WHERE categorias.nombre = 'Electrónicos'
+GROUP BY nombre
+ORDER BY total_ventas DESC;
+```
+Y suponiendo que existen los siguientes índices:
+```SQL
+CREATE INDEX idx_categorias ON productos(categoria);
+CREATE INDEX idx_productos_id ON ventas(producto_id)
+```
+a. La consulta busca productos en la categoría 'Electrónicos', pero la condición de join podría generar duplicados en el resultado.
+b. La cláusula WHERE debería cambiarse a una cláusula HAVING para filtrar correctamente los resultados basados en la categoría.
+c. La reescritura de la consulta no sería necesaria, ya que está correctamente optimizada para obtener el total de ventas de productos electrónicos con los índices disponibles.
+d. La reescritura de la consulta no sería necesaria, ya que está correctamente optimizada, y no se necesitan los índices.
+?
+La reescritura de la consulta no sería necesaria, ya que está correctamente optimizada para obtener el total de ventas de productos electrónicos con los índices disponibles.
+
+En el contexto de una base de datos relacional, ¿cuál de las siguientes afirmaciones describe mejor una característica de los índices agrupados (clustered index)?
+a. Un índice agrupado puede coexistir con múltiples índices no agrupados en la misma tabla. b. Un índice agrupado puede aplicarse a varias columnas y define la clave primaria de la tabla. c. Un índice agrupado es ideal para mejorar la velocidad de inserción y actualización de datos. d. Un índice agrupado afecta la organización física de las filas en una tabla, ordenándolas según la clave del índice.
+?
+Un índice agrupado afecta la organización física de las filas en una tabla, ordenándolas según la clave del índice.
+
+
