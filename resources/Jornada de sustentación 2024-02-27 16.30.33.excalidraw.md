@@ -7,110 +7,23 @@ tags: [excalidraw]
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 
-# Text Elements
+# Excalidraw Data
+## Text Elements
 %%
-# Drawing
-```json
-{
-	"type": "excalidraw",
-	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.22",
-	"elements": [
-		{
-			"id": "9yKjdqfyfhmbOJlD934CB",
-			"type": "ellipse",
-			"x": -120,
-			"y": -150.921875,
-			"width": 239,
-			"height": 239,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"seed": 450766702,
-			"version": 14,
-			"versionNonce": 31569070,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1709069436975,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "volwBuabacU7oZmAd-fbZ",
-			"type": "rectangle",
-			"x": -49,
-			"y": -187.921875,
-			"width": 105,
-			"height": 328,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"seed": 694349550,
-			"version": 125,
-			"versionNonce": 65933038,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1709069444687,
-			"link": null,
-			"locked": false
-		}
-	],
-	"appState": {
-		"theme": "dark",
-		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "solid",
-		"currentItemStrokeWidth": 2,
-		"currentItemStrokeStyle": "solid",
-		"currentItemRoughness": 1,
-		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
-		"currentItemTextAlign": "left",
-		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"scrollX": 511,
-		"scrollY": 86.078125,
-		"zoom": {
-			"value": 1
-		},
-		"currentItemRoundness": "round",
-		"gridSize": null,
-		"gridColor": {
-			"Bold": "#C9C9C9FF",
-			"Regular": "#EDEDEDFF"
-		},
-		"currentStrokeOptions": null,
-		"previousGridSize": null,
-		"frameRendering": {
-			"enabled": true,
-			"clip": true,
-			"name": true,
-			"outline": true
-		}
-	},
-	"files": {}
-}
+## Drawing
+```compressed-json
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBmbQAGGjoghH0EDihmbgBtcDBQMBLoeHF0IKI5JH5SxhZ2LjQARgBWOsgG1k4AOU4xbhaADiSAFgB2Kba2sc6IQg5iLG4I
+
+XBT5wmYAEXSoBGJuADMCMM3DiQBOGABpACtiAEcjmCPJfU0AeQApfG3L+JjADCACFUiVIEdCPh8ABlWDBVaCDzg0rMKCkNgAawQAHUSOpuHxCgIMdiEPCYIiJMiSKjIJi/JIOOFcq15mw4LhsGoYEMkkl5tZlNTUIKSRBMNxnC0eOKIRA+WgZW0ktpLjwRhMOhL0ZicUC2Pg2KRVgBiFoIS2W+kQTTcrHKRlLQ3G00SDHWZhcwLZW0UAmSInxS7z
+
+SQIQjKaTB0O6hAHbhjVUTABsKYmSWJCqdwjgAEliGzUHkALrzI7kTIF7gcIQw+bO4gs5hF4oK2CIIkkgC+800wiWAFFgplskXS/MhHBiLh9hdUC0Jjw2u1hvFhhMxvEWvMiBwsTW6/hd2xsDj5yd8GFCr3Cm3IB2KhBAtgohwRbUJd0mkMeCn5t+fQDBULRjGMwwtCmSQTCMmxLCsEi4C0tpbLswRzscpwIOcqz0EaFAgkIuD2tgACqExsAAWvoA
+
+CCxDOEcmiUbaUIwpSooQLShzzHq5L4sQhJoFmaJkji7FPlxtqMlGzZFjuEqctyvL8vKpTCqKqmQFKypjLGCpKqgMobuqmobjqCq8QaRomua1pWp+CokY6jaujZHrkBw3q4L6UD+oG/LmaU4aRtGaDxDwww8fG84ppcW66TMmkQDmU4FuOZYShWuBVvOtb1hKjaydw94PuU3DxD2fYDsQw4ZFkOT5BlCpTjOGGtEuK5tGuG5bvJCp7geaB5ceErGm
+
+eCZoJe14lN24BNWscBwPCs4VG20DhpkqwzqQB51AwhAIARDopS61nuugZpHFd12ohA2AiD5eb7Po8L6ggrnnRAFr2Tae33aQj3PSCx0uWdqyep5Pr1bd/2AxkABi0JwgiElGnSf0PfVT0ZK9fH+UJGMA1jz242JKNImj3GFHdmPZNj+gAErCDJrJDITcP6J8XI8rAKns8TCOcFA8PZdCBl9ZAsMC/o8NC7ChBGBUcr83Tz0ACpYFANFEMozToMER
+
+y+SrUD08tpBawDbAUOGuC5Uexv04OSw0Zb1shPOayu7dzDYJiMIABpEhMiSBZxvtGvgACaRIRdoLTQWMpnantRhsAYxVfgQQhKzeDvPUzQhLEVEiNrdTokPLiuHvlpTl8QH0ZwqIJGh7ZpApc7ft7aDMIModbeeag7bEPQ8QLn1NS9kpMIFzUBNEWw17XAgRmMIzAAOKkBXCsVIv1NZZkPfwVv76N6UWTEcE84Ytn8zYNU3A39hEocNlFRPxyQhQ
+
+Hu7+kNn4+lDsHcBAr5mCwlfnAAAsmwZYTtL4TVQFNBA4BbyQmhOEYqs1uxAA
 ```
 %%
