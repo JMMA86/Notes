@@ -74,5 +74,6 @@
  - [x] Cuando tengas tiempo, revisa el video y chambea.
  - [x] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
  - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
+ - [ ] Meterse al codeforces
  - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
  - [x] (OJS) Revisar problema con anuncios que no abre en producción.
