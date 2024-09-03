@@ -15,8 +15,8 @@ kanban-plugin: list
 
 ## Francés
 
-- [ ] Hacer el guión de francés para la presentación
 - [ ] Terminar el quizlet de ma famille et moi
+- [ ] Presentación de francés: @{2024-09-04}
 
 
 ## Discretas
@@ -55,6 +55,7 @@ kanban-plugin: list
 - [ ] Hacer el taller de ética de ingesoft
 - [ ] Repasar números y frases en francés @{2024-08-20}
 - [ ] Révise les thèmes et fais des exercices sur Quizlet!
+- [ ] Hacer el guión de francés para la presentación
 
 %% kanban:settings
 ```
