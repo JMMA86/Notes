@@ -27,7 +27,7 @@
 - [x] Realizar tarea 2 (actividad de ética profesional).
 - [x] Leer ISO19505.
 - [x] Hacer los [ejercicios](https://docs.google.com/document/d/1nGPitgEpPJoOrJC9XsqOX1e1Xg4QtnjZosErt8o_pfo/edit?usp=sharing) de los diagramas.
-- [ ] Hacer lectura próxima clase.
+- [x] Hacer lectura próxima clase.
 - [ ] Hacer tarea de Hello World.
 - [ ] Estudiar para el parcial (sábado 7).
 
@@ -67,11 +67,13 @@
 - [x] Leer el documento SRS.
 - [x] Calificar presentaciones y Jira.
 - [x] Enviarles videos de presentación a cada grupo.
+- [ ] Calificar primera entrega.
 
 ## Semillero
  - [x] Reunión de configuración de Azure el 31 de julio a las 9:00 am.
  - [x] Cuando tengas tiempo, revisa el video y chambea.
  - [x] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
  - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
+ - [ ] Meterse al codeforces
  - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
  - [x] (OJS) Revisar problema con anuncios que no abre en producción.
