@@ -12,6 +12,7 @@
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
 - [x] Realizar apuntes de la presentación del jueves a partir de diapositivas.
 - [x] Estudiar para el seguimiento.
+- [x] Estudiar Pyformlang con el nuevo tema.
 
 ## Ingeniería de Software IV
 - [x] Realizar mapa conceptual del capítulo 2 del Swebok.
@@ -25,13 +26,17 @@
 - [x] Leer código de ética.
 - [x] Realizar tarea 2 (actividad de ética profesional).
 - [x] Leer ISO19505.
-- [ ] Estudiar para el parcial (sábado 31).
+- [x] Hacer los [ejercicios](https://docs.google.com/document/d/1nGPitgEpPJoOrJC9XsqOX1e1Xg4QtnjZosErt8o_pfo/edit?usp=sharing) de los diagramas.
+- [x] Hacer lectura próxima clase.
+- [ ] Hacer tarea de Hello World.
+- [ ] Estudiar para el parcial (sábado 7).
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
 - [x] Revisar Intu (Semana 3).
 - [x] Revisar Intu (Semana 5).
-- [ ] Terminar proyecto final de corte.
+- [x] Terminar proyecto final de corte.
+- [x] Revisar Intu (Semana 6).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
@@ -39,7 +44,9 @@
 - [x] Realizar 20 ejercicios de conversión de tasa de interés.
 - [x] Ejercicios del 1 al 8 de VDT, de los cuales 5 están realizados y el 6 se planteó.
 - [x] Estudiar para el Quiz del viernes.
-- [ ] Hacer 16 ejercicios de alícuotas para el miércoles (MFP).
+- [x] Hacer 16 ejercicios de alícuotas para el miércoles (MFP).
+- [x] Hacer taller de preparación del parcial I.
+- [ ] Hacer parte del parcial I.
 
 ## Sistemas Intensivos en Datos II
 - [x] Preparar la clase del 1 de agosto.
@@ -50,18 +57,22 @@
 - [x] Insertar datos y esquema.
 - [x] Hacer modelo entidad relación haciendo ingeniería inversa del esquema OT.
 - [x] Crear el sinónimo.
-- [ ] Estudiar para el parcial (jueves 29).
+- [x] Tener bien el esquema de estudiante, profesor y padre.
+- [ ] Estudiar para el parcial (martes 3).
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
 - [x] Confirmarle a la profe mis horarios de monitoria (hasta el 30 de julio).
 - [x] Agregar etiquetas a los estudiantes para diferenciar grupos.
 - [x] Leer el documento SRS.
+- [x] Calificar presentaciones y Jira.
+- [x] Enviarles videos de presentación a cada grupo.
+- [ ] Calificar primera entrega.
 
 ## Semillero
  - [x] Reunión de configuración de Azure el 31 de julio a las 9:00 am.
  - [x] Cuando tengas tiempo, revisa el video y chambea.
- - [ ] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
+ - [x] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
  - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
  - [ ] Meterse al codeforces
  - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
