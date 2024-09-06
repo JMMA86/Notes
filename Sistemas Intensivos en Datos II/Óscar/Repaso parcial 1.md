@@ -25,9 +25,27 @@
 		- Las transacciones no se afectan entre sí, si son simultáneas.
 	- **Durabilidad:**
 		- Los datos escritos no se perderán, incluso en casos de errores o fallos.
-- Costos de búsqueda
-- Organización del dbms
-- Cuales son los tres niveles ANSI/SPARC y que hace cada uno
+- **Organización del dbms:**
+	- GUI
+	- Aplicaciones
+	- Lenguaje de consulta
+	- Optimización de consulta
+	- Ejecución de consulta
+	- Almacenamiento
+	- Gestión de datos
+	- Gestión de transacciones
+	- Gestión de concurrencia
+	- Gestión de seguridad
+- **Cuales son los tres niveles ANSI/SPARC:**
+	- **Nivel físico**
+		- Se enfoca en el almacenamiento de los datos.
+		- Como se organizan los datos en disco incluyendo como se identifican y la estructura de los archivos.
+	- **Nivel lógico**
+		- Se enfoca en la organización lógica de los datos, independientemente del almacenamiento físico.
+		- Define estructuras como las tablas, relaciones, vistas y otros objetos de la base de datos.
+	- **Nivel de vista**
+		- Se enfoca en la presentación de los datos a los usuarios y aplicaciones.
+		- Define las vistas, reportes y otros mecanismos para acceder y presentar los datos de manera significativa para los usuarios.
 - **Atributos de calidad:**
 	- Vistos:
 		- **Niveles de seguridad**
@@ -38,6 +56,7 @@
 	- **Física:** Podemos modificar el esquema interno sin modificar el esquema conceptual. Cambia la forma de almacenar físicamente los datos.
 	- **Lógica:** Los cambios en el esquema conceptual no deberían alterar el esquema externo. No afectar la visión e los usuarios por cambios en la estructura.
 - **PGA:** 
+	- Program Global Area, es la zona de memoria de cada proceso de Oracle. No está compartida y contiene datos e información de control de un único proceso.
 	- Donde se ejecuta el Procedural Language del PLSQL
 - **Cosas que aumentan los costos en las bases de datos:**
 	- I/O storage
@@ -45,3 +64,5 @@
 	- Computación
 	- Networking
 	- Memoria
+- **SGA**
+	- System Global Area
