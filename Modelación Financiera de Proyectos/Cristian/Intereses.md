@@ -64,4 +64,4 @@ $$
 $$
 A_{PM} = VP\cdot i \frac{(1+i)^{n-PM}}{(1+i)^{n-PM}-1}
 $$
-
+	
