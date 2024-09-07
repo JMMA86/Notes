@@ -28,8 +28,9 @@
 - [x] Leer ISO19505.
 - [x] Hacer los [ejercicios](https://docs.google.com/document/d/1nGPitgEpPJoOrJC9XsqOX1e1Xg4QtnjZosErt8o_pfo/edit?usp=sharing) de los diagramas.
 - [x] Hacer lectura próxima clase.
-- [ ] Hacer tarea de Hello World.
+- [x] Leer lectura debajo de Flynn.
 - [ ] Estudiar para el parcial (sábado 7).
+- [ ] Hacer tarea de Hello World.
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
@@ -37,6 +38,7 @@
 - [x] Revisar Intu (Semana 5).
 - [x] Terminar proyecto final de corte.
 - [x] Revisar Intu (Semana 6).
+- [ ] Revisar Intu (Semana 7).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
@@ -46,7 +48,7 @@
 - [x] Estudiar para el Quiz del viernes.
 - [x] Hacer 16 ejercicios de alícuotas para el miércoles (MFP).
 - [x] Hacer taller de preparación del parcial I.
-- [ ] Hacer parte del parcial I.
+- [x] Hacer parte del parcial I.
 
 ## Sistemas Intensivos en Datos II
 - [x] Preparar la clase del 1 de agosto.
@@ -58,7 +60,7 @@
 - [x] Hacer modelo entidad relación haciendo ingeniería inversa del esquema OT.
 - [x] Crear el sinónimo.
 - [x] Tener bien el esquema de estudiante, profesor y padre.
-- [ ] Estudiar para el parcial (martes 3).
+- [x] Estudiar para el parcial (martes 3).
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
@@ -73,7 +75,7 @@
  - [x] Reunión de configuración de Azure el 31 de julio a las 9:00 am.
  - [x] Cuando tengas tiempo, revisa el video y chambea.
  - [x] Manejar el tema de los campos obligatorios y opcionales (actualmente toca poner un -para que pase, puesto que si los ponemos como no obligatorios, desaparecen durante el registro).
- - [ ] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
- - [ ] Meterse al codeforces
+ - [x] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
  - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
  - [x] (OJS) Revisar problema con anuncios que no abre en producción.
+ - [ ] Cambiar banner de Dataverse.

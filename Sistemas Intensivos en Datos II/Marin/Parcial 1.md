@@ -61,46 +61,46 @@
 11. Definición de Exactitud :: Esenciales para tomar decisiones informadas.
 
 
-12. Definición de Completitud :: Necesarios para tener una imagen completa de la situación.
+13. Definición de Completitud :: Necesarios para tener una imagen completa de la situación.
 
 
-13. Definición de Actualidad :: Garantizan que las decisiones estén basadas en la información del cliente.
+14. Definición de Actualidad :: Garantizan que las decisiones estén basadas en la información del cliente.
 
 
-14. Definición de Consistencia :: Evitan errores y malentendidos.
+15. Definición de Consistencia :: Evitan errores y malentendidos.
 
 
-15. Definición de Usabilidad :: Los datos fáciles de usar hacen que la base de datos sea más accesible para los usuarios.
+16. Definición de Usabilidad :: Los datos fáciles de usar hacen que la base de datos sea más accesible para los usuarios.
 
 
-16. Definición de Eficiencia :: Mejoran el rendimiento de la base de datos y reducen los costos.
+17. Definición de Eficiencia :: Mejoran el rendimiento de la base de datos y reducen los costos.
 
 
-17. Definición de Seguridad :: Protegen la información de los usuarios y evitan el acceso no autorizado.
+18. Definición de Seguridad :: Protegen la información de los usuarios y evitan el acceso no autorizado.
 
 
-18. Definición de Disponibilidad :: Los datos disponibles permiten tomar decisiones en el momento adecuado. 7x24.
+19. Definición de Disponibilidad :: Los datos disponibles permiten tomar decisiones en el momento adecuado. 7x24.
 
 
-19. Definición de Universalidad :: Los datos pueden pertenecer a diferentes dominios. Múltiples tipos de datos. Multimedia.
+20. Definición de Universalidad :: Los datos pueden pertenecer a diferentes dominios. Múltiples tipos de datos. Multimedia.
 
 
-20. Definición de Portabilidad :: Los datos y las funcionalidades sobre ellos deben permanecer aún cuando se cambie de versión del SGBD.
+21. Definición de Portabilidad :: Los datos y las funcionalidades sobre ellos deben permanecer aún cuando se cambie de versión del SGBD.
 
 
-21. Definición de Interoperabilidad :: Los SGBD pueden operar sobre diferentes o múltiples plataformas/Sistemas operativos.
+22. Definición de Interoperabilidad :: Los SGBD pueden operar sobre diferentes o múltiples plataformas/Sistemas operativos.
 
 
-22. Definición de Escalabilidad :: La gestión de los datos debe permitir el incremento de los recursos invertidos.
+23. Definición de Escalabilidad :: La gestión de los datos debe permitir el incremento de los recursos invertidos.
 
 
-23. Definición de Escalabilidad flexible :: Incremento o decremento de los recursos invertidos.
+24. Definición de Escalabilidad flexible :: Incremento o decremento de los recursos invertidos.
 
 
-24. Definición de Rendimiento :: Hacer que las consultas consuman menos recursos.
+25. Definición de Rendimiento :: Hacer que las consultas consuman menos recursos.
 
 
-25. ¿Cuáles son algunas funciones del DBA?
+26. ¿Cuáles son algunas funciones del DBA?
 ?
 - Administrar, supervisar y asegurar el adecuado uso de los datos dentro de un DBMS.
 - Garantizar la seguridad de las bases de datos, incluyendo backups y recuperación de desastres.

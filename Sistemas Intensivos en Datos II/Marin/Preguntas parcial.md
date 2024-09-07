@@ -8,11 +8,13 @@ e. Ejecuta consultas y transacciones.
 ?
 Gestiona las conexiones de clientes y coordina los procesos del servidor.
 
+
 ¿Pueden los tablespaces en un SGBD contener datafiles en diferentes discos duros?
-Verdadero 
+Verdadero
 Falso
 ?
 La respuesta correcta es 'Verdadero'
+
 
 ¿Cual de los siguientes SGBD se caracteriza por tener un wiredtiger como default de motor de almacenamiento?
 a. Ninguno es correcto
@@ -23,37 +25,42 @@ e. SQL Server
 ?
 MongoDB
 
+
 ¿Qué significa PGA en la arquitectura de Oracle y cuál es su función principal?
-a. Program Global Area, gestiona la memoria compartida entre diferentes procesos.
-b. Private Global Area, almacena datos temporales y de sesión para cada proceso.
+a. Private Global Area, gestiona la memoria compartida entre diferentes procesos.
+b. Program Global Area, almacena datos temporales y de sesión para cada proceso.
 c. Public Grid Access, proporciona acceso público a la base de datos.
 d. Process Global Allocation, controla la ejecución de consultas y transacciones.
 ?
-Program Global Area, gestiona la memoria compartida entre diferentes procesos.
+Program Global Area, almacena datos temporales y de sesión para cada proceso.
+
 
 ¿Cuáles son los componentes que conforman la memoria interna en la arquitectura de Oracle?
 a. Ninguna es correcta
 b. MMAM , CMON
 c. PGA, SGA
-d. ARCn  
+d. ARCn
 ?
 PGA, SGA
+
 
 ¿Qué es la consistencia en el contexto de bases de datos y por qué es un atributo de calidad crucial?
 a. La capacidad de recuperarse de fallos sin perder datos.
 b. La capacidad de manejar grandes volúmenes de datos.
 c. La velocidad con la que se pueden realizar consultas.
-d. La garantía de que los datos cumplen con las reglas y restricciones definidas. 
+d. La garantía de que los datos cumplen con las reglas y restricciones definidas.
 ?
 La garantía de que los datos cumplen con las reglas y restricciones definidas.
+
 
 ¿Cuáles de las siguientes combinaciones podría implementar de mejor manera la maximización del atributo de calidad de seguridad en un SGBD?
 a. Mediante Objetos de la Base de Datos ( sinónimos y vistas)
 b. Mediante gestión de Transacciones
 c. Mediante datos encriptados + roles y permisos de acceso a los objetos + Objetos de la base de datos(sinónimos y vistas)
-d. Mediante datos encriptados + roles y permisos de acceso a los objetos 
+d. Mediante datos encriptados + roles y permisos de acceso a los objetos
 ?
 Mediante datos encriptados + roles y permisos de acceso a los objetos + Objetos de la base de datos(sinónimos y vistas)
+
 
 ¿Con la encriptación de datos en una tabla, se garantiza la seguridad como atributo de calidad en un SGBD?
 a. Solo si se utiliza un algoritmo de encriptación fuerte
@@ -62,6 +69,7 @@ c. Depende del tamaño de la base de datos y el número de usuarios.
 d. Sí
 ?
 No
+
 
 ¿Qué significa el término escalabilidad en el contexto de bases de datos y por qué es esencial?
 a. La capacidad de recuperarse de fallos sin perder datos.
@@ -72,6 +80,7 @@ e. Ninguna es correcta
 ?
 La habilidad para manejar un aumento en la carga de trabajo o en el tamaño de la base de datos.
 
+
 ¿Qué aspectos aborda el atributo de calidad de un SGBD en cuanto a rendimiento?
 a. Optimización de consultas
 b. Escalabilidad
@@ -81,20 +90,21 @@ e. Todas son correctas
 ?
 Optimización de consultas
 
+
 Texto informativo
 Caso de Estudio: Sistema de Ventas de Pasajes Aéreos para una Aerolínea
 Descripción General del Sistema:
 La aerolínea opera un sistema de ventas de pasajes aéreos para gestionar reservas, ventas y consultas relacionadas con la disponibilidad de vuelos y precios. Este sistema maneja un gran volumen de transacciones diarias, ya que los clientes realizan consultas en busca de vuelos disponibles, tarifas y asientos.
 Con el crecimiento continuo de la demanda y el aumento de consultas de disponibilidad de vuelos, el rendimiento del sistema ha comenzado a verse afectado. Las consultas, especialmente aquellas relacionadas con la disponibilidad de asientos, experimentan tiempos de respuesta más lentos.
 Durante las horas pico, el sistema experimenta un aumento significativo en la carga concurrente debido a la alta demanda de reservas y consultas de vuelos.
-Para mejorar el rendimiento en las consultas relacionadas con los vuelos disponibles entre una ciudad A y B,
-¿Cuál sería el mejor tipo de índice a crear sobre la tabla VUELOS?
+Para mejorar el rendimiento en las consultas relacionadas con los vuelos disponibles entre una ciudad A y B, ¿Cuál sería el mejor tipo de índice a crear sobre la tabla VUELOS?
 a. Índice no agrupado en las columnas de origen y destino.
 b. Índice agrupado en la columna de número de vuelo.
 c. Índice no agrupado en la columna de fecha de vuelo.
 d. Índice único en la columna de aerolínea.
 ?
 Índice no agrupado en las columnas de origen y destino.
+
 
 Texto informativo
 Caso de Estudio: Sistema de Ventas de Pasajes Aéreos para una Aerolínea
@@ -109,6 +119,7 @@ c. Índice en la columna de número de vuelo.
 d. Índice en la columna de origen.
 ?
 Índice en la columna de fecha de vuelo.
+
 
 Texto informativo
 Caso de Estudio: Sistema de Ventas de Pasajes Aéreos para una Aerolínea
@@ -126,20 +137,21 @@ e. Index by Primary Key
 ?
 Index range scan
 
+
 Texto informativo
 Caso de Estudio: Sistema de Ventas de Pasajes Aéreos para una Aerolínea
 Descripción General del Sistema:
 La aerolínea opera un sistema de ventas de pasajes aéreos para gestionar reservas, ventas y consultas relacionadas con la disponibilidad de vuelos y precios. Este sistema maneja un gran volumen de transacciones diarias, ya que los clientes realizan consultas en busca de vuelos disponibles, tarifas y asientos.
 Con el crecimiento continuo de la demanda y el aumento de consultas de disponibilidad de vuelos, el rendimiento del sistema ha comenzado a verse afectado. Las consultas, especialmente aquellas relacionadas con la disponibilidad de asientos, experimentan tiempos de respuesta más lentos.
 Durante las horas pico, el sistema experimenta un aumento significativo en la carga concurrente debido a la alta demanda de reservas y consultas de vuelos.
-Se quiere optimizar consultas que recuperan información sobre vuelos cancelados. ¿Qué tipo de índice sería
-más útil para consultas que filtran por el estado de vuelo (cancelado o no cancelado)?
+Se quiere optimizar consultas que recuperan información sobre vuelos cancelados. ¿Qué tipo de índice sería más útil para consultas que filtran por el estado de vuelo (cancelado o no cancelado)?
 a. Índice no agrupado en la columna de origen.
 b. Índice único en la columna de aerolínea.
 c. Índice no agrupado en la columna de estado de vuelo.
 d. Índice agrupado en la columna de número de vuelo.
 ?
 Índice no agrupado en la columna de estado de vuelo.
+
 
 ¿El costo de ejecutar una operación en una consulta SQL viene dado en función de?
 a. Alcance, tiempo y RAM
@@ -149,6 +161,7 @@ d. Tiempo de ejecución y complejidad
 e. Costo de recorrer el árbol de índice.
 ?
 E/S de disco, RAM y CPU
+
 
 ¿Cuál de los siguientes queries utiliza una mejor aproximación para evitar una transformación de columna?
 ```SQL
@@ -186,13 +199,15 @@ d.
   AND total_price > 10;
 ```
 
+
 ¿Cuál de las siguientes descripciones define correctamente un índice en una base de datos y su impacto en el rendimiento?
 a. Un conjunto de datos ordenados de valores únicos que facilitan la organización y recuperación de datos, a pesar de incrementar el espacio de almacenamiento y disminuir la velocidad de las consultas complejas.
 b. Una categoría de usuarios autorizados, que agiliza las operaciones de búsqueda y clasificación de datos.
 c. Una lista de nombres de tablas, que agiliza las operaciones de búsqueda y clasificación de datos.
-d. Una estructura que mejora la velocidad de las consultas al proporcionar un acceso más rápido a losdatos, aunque puede aumentar el tiempo de escritura y almacenamiento. 
+d. Una estructura que mejora la velocidad de las consultas al proporcionar un acceso más rápido a losdatos, aunque puede aumentar el tiempo de escritura y almacenamiento.
 ?
 Una estructura que mejora la velocidad de las consultas al proporcionar un acceso más rápido a los datos, aunque puede aumentar el tiempo de escritura y almacenamiento.
+
 
 Seleccione el concepto que sea más adecuado en cada caso:
 - Es el ajuste de la estructura de la base de datos para adaptarse mejor a los patrones de acceso y consulta.
@@ -214,6 +229,7 @@ Mantenimiento regular de estadísticas
 Respuesta 4
 Índice
 
+
 ¿Cuál de las siguientes afirmaciones describe correctamente un posible motivo para reescribir esta consulta?
 ```SQL
 SELECT p.nombre, SUM(v.totalventa) AS total_ventas
@@ -223,7 +239,7 @@ WHERE p.categoria_id IN (select id from categorias where name = 'Electrónicos')
 GROUP BY p.nombre
 ORDER BY total_ventas DESC;
 ```
- Y el índice: 
+ Y el índice:
 ```SQL
 CREATE INDEX idx_descripcion ON productos(descripcion);
 ```
@@ -234,9 +250,9 @@ d. En lugar de usar IN con una subconsulta que devuelve un conjunto de resultado
 ?
 En lugar de usar IN con una subconsulta que devuelve un conjunto de resultados, puedes usar una comparación directa con el operador =. Esto asume que la subconsulta siempre devolverá un solo valor (la id correspondiente a 'Electrónicos').
 
+
 Seleccione el concepto que sea más adecuado en cada caso:
-En el ámbito de la gestión de bases de datos, el índice y el ROWID son elementos cruciales para el rendimiento y la optimización de consultas. Un ___ es una estructura que acelera la
-recuperación de datos al proporcionar un acceso más eficiente a las filas de una tabla, mejorando así la velocidad de las consultas. Por otro lado, el ___ , o identificador de fila, es un identificador único asociado a cada fila de una tabla. Ambos conceptos juegan un papel esencial en el ___ y la optimización de consultas, ya que permiten a los motores de bases de datos recuperar datos de manera más rápida y eficiente.
+En el ámbito de la gestión de bases de datos, el índice y el ROWID son elementos cruciales para el rendimiento y la optimización de consultas. Un (-) es una estructura que acelera la recuperación de datos al proporcionar un acceso más eficiente a las filas de una tabla, mejorando así la velocidad de las consultas. Por otro lado, el (-) , o identificador de fila, es un identificador único asociado a cada fila de una tabla. Ambos conceptos juegan un papel esencial en el (-) y la optimización de consultas, ya que permiten a los motores de bases de datos recuperar datos de manera más rápida y eficiente.
 **Opciones:**
 - afinamiento
 - índice
@@ -246,6 +262,7 @@ recuperación de datos al proporcionar un acceso más eficiente a las filas de u
 2. ROWID
 3. Afinamiento
 
+
 ¿Cuál de las siguientes afirmaciones describe mejor la cantidad de procesos PostgreSQL que se ejecutan en un servidor PostgreSQL?
 a. Se ejecuta un único proceso de PostgreSQL para todas las conexiones de cliente.
 b. Se ejecuta un proceso de PostgreSQL por cada consulta que se realiza en el servidor.
@@ -254,6 +271,7 @@ d. Se ejecutan múltiples procesos de PostgreSQL, incluyendo el proceso postmast
 ?
 Se ejecutan múltiples procesos de PostgreSQL, incluyendo el proceso postmaster y varios procesos de backend para manejar consultas y transacciones.
 
+
 ¿Cuáles son los tres niveles de abstracción de datos mencionados?
 a. Nivel primario, nivel secundario, nivel terciario
 b. Nivel de usuario, nivel de seguridad, nivel de administración
@@ -261,6 +279,7 @@ c. Ninguna de las anteriores
 d. Nivel de vistas, nivel lógico, nivel físico
 ?
 Nivel de vistas, nivel lógico, nivel físico
+
 
 ¿Cuál es el papel del Redo Log Buffer en la arquitectura de Oracle?
 a. Almacena información sobre la estructura lógica de las tablas.
@@ -271,11 +290,13 @@ e. Controla el acceso a la PGA.
 ?
 Almacena cambios de datos temporales antes de que se escriban en los archivos de Redo Log.
 
+
 Una vista es una tabla virtual en la que se restringe exclusivamente el número de filas y las columnas a ser vistas.
 Verdadero
 Falso
 ?
 Falso
+
 
 ¿Cuál es la importancia de la disponibilidad como atributo de calidad en una base de datos?
 a. Garantiza que los datos sean precisos.
@@ -285,6 +306,7 @@ d. Asegura que los usuarios autorizados puedan acceder a la base de datos cuando
 e. Evita la redundancia de datos.
 ?
 Asegura que los usuarios autorizados puedan acceder a la base de datos cuando lo necesiten.
+
 
 ¿Cuál de las siguientes afirmaciones describe correctamente un posible motivo para reescribir esta consulta?
 ```SQL
@@ -308,9 +330,14 @@ d. La reescritura de la consulta no sería necesaria, ya que está correctamente
 ?
 La reescritura de la consulta no sería necesaria, ya que está correctamente optimizada para obtener el total de ventas de productos electrónicos con los índices disponibles.
 
+
 En el contexto de una base de datos relacional, ¿cuál de las siguientes afirmaciones describe mejor una característica de los índices agrupados (clustered index)?
-a. Un índice agrupado puede coexistir con múltiples índices no agrupados en la misma tabla. b. Un índice agrupado puede aplicarse a varias columnas y define la clave primaria de la tabla. c. Un índice agrupado es ideal para mejorar la velocidad de inserción y actualización de datos. d. Un índice agrupado afecta la organización física de las filas en una tabla, ordenándolas según la clave del índice.
+a. Un índice agrupado puede coexistir con múltiples índices no agrupados en la misma tabla.
+b. Un índice agrupado puede aplicarse a varias columnas y define la clave primaria de la tabla.
+c. Un índice agrupado es ideal para mejorar la velocidad de inserción y actualización de datos.
+d. Un índice agrupado afecta la organización física de las filas en una tabla, ordenándolas según la clave del índice.
 ?
 Un índice agrupado afecta la organización física de las filas en una tabla, ordenándolas según la clave del índice.
+
 
 
