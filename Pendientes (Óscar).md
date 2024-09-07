@@ -10,13 +10,10 @@ kanban-plugin: list
 
 ## Ingesoft
 
-- [ ] Parcial ingesoft @{2024-08-31}
 
 
 ## Francés
 
-- [ ] Terminar el quizlet de ma famille et moi
-- [ ] Presentación de francés: @{2024-09-04}
 
 
 ## Discretas
@@ -25,26 +22,25 @@ kanban-plugin: list
 
 ## Intensivos
 
-- [ ] Parcial intensivos @{2024-08-29}
 - [ ] Hacer el curso de mongoDB @{2024-10-01}
 
 
 ## Innovación
 
-- [ ] Hacer los ejercicios que dejó sobre cuotas fijas
-- [ ] Organizar las fórmulas en un excel
 
 
 ## Modelación
 
-- [ ] Leer periodo de gracia y periodo muerto: @{2024-08-30}
-- [ ] Hacer los ejercicios del parcial, fecha límite: @{2024-09-11}
 
 
 ***
 
 ## Archive
 
+- [ ] Hacer los ejercicios que dejó sobre cuotas fijas
+- [ ] Organizar las fórmulas en un excel
+- [ ] Leer periodo de gracia y periodo muerto: @{2024-08-30}
+- [ ] Hacer los ejercicios del parcial, fecha límite: @{2024-09-11}
 - [ ] Terminar los ejercicios de discretas @{2024-08-19}
 - [ ] Hacer lo 20 ejercicios de modelación @{2024-08-19}
 - [ ] "Hacer" los otros 8 ejercicios de modelación @{2024-08-20}
@@ -56,9 +52,13 @@ kanban-plugin: list
 - [ ] Repasar números y frases en francés @{2024-08-20}
 - [ ] Révise les thèmes et fais des exercices sur Quizlet!
 - [ ] Hacer el guión de francés para la presentación
+- [ ] Presentación de francés: @{2024-09-04}
+- [ ] Terminar el quizlet de ma famille et moi
+- [ ] Parcial ingesoft @{2024-08-31}
+- [ ] Parcial intensivos @{2024-08-29}
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[true,true,false,true,true,true,true]}
+{"kanban-plugin":"list","list-collapse":[true,true,true,true,true,true,true]}
 ```
 %%
