@@ -10,6 +10,7 @@ kanban-plugin: list
 
 ## Ingesoft
 
+- [ ] Modificar el HelloWorld para que maneje un chat de forma asíncrona
 
 
 ## Francés
@@ -59,6 +60,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[true,true,true,true,true,true,true]}
+{"kanban-plugin":"list","list-collapse":[true,false,true,true,true,true,true]}
 ```
 %%
