@@ -1,4 +1,4 @@
-#flashcards/soft/parcial1old
+#parcialInge
 
 **Entorno** :: Contexto (relacionado con momento, lugar, circunstancia, etc) específico en el que ocurre potencialmente la situación planteada en el escenario
 
@@ -149,12 +149,11 @@ Intrínsecos a la arquitectura: Correctitud
 ¿Qué es el entorno en el contexto de escenarios? :: Contexto específico en el que ocurre la situación planteada.
 
 ¿Qué describe la respuesta en los escenarios? :: Cómo debe ser el comportamiento ideal del sistema ante la situación planteada.
+<!--SR:!2024-09-10,4,270-->
 
 ---
 
 El diseño de software como ==producto==, se evidencia a nivel arquitectónico en la forma de ==Diagramas de Deployment== y a nivel de detalle en forma de ==Diagramas de Secuencia==, entre otros.
-
-La cohesión en el diseño debe ser :: alta
 
 En un conjunto de clases en Java una forma posible de evidenciar baja cohesión es :: métodos con diversas responsabilidades y funciones en una clase
 
@@ -218,16 +217,15 @@ Seleccione para cada definición el término correspondiente:
 - Determinación de cuán interdependientes son los componentes o módulos en un sistema.
 - Agrupar diferentes funcionalidades y responsabilidades en diferentes componentes.
 Opciones
-- Encapsulación
 - Abstracción
 - Acoplamiento
 - Descomposición y modularización
-
+- Encapsulación
 ?
+- Encapsulación
 - Abstracción
 - Acoplamiento
-- Descomposición y modularización
-- Encapsulación
+- Descomposición y modularización
 
 ---
 
@@ -291,17 +289,17 @@ A continuación, escoja el concepto que corresponde con la definición proporcio
 - Capacidad del sistema de cambiar o personalizar sus componentes antes de su ejecución sin modificar su código fuente.
 - Capacidad para recuperarse ante fallas fatales del sistema, o lidiar con datos inconsistentes o erróneos utilizando mecanismos aceptables para la organización, dentro de tiempos igualmente aceptables.
 Opciones:
-- Portabilidad, Capacidad del sistema de mantener el mismo nivel de servicio a incrementos significativos de cargas de trabajo, aumentando recursos computacionales.
-- Recuperabilidad
+- Portabilidad, Proporción de tiempo en que un sistema está presto a responder solicitudes a sus servicios (i.e.t requerimientos funcionales).
+- Recuperabilidad, Capacidad para recuperarse ante fallas fatales del sistema o lidiar con datos inconsistentes o erróneos utilizando mecanismos aceptables para la organización, dentro de tiempos
 - Disponibilidad, Capacidad del sistema de correr en múltiples plataformas.
-- Configurabilidad, Capacidad para recuperarse ante fallas fatales del sistemat o lidiar con datos inconsistentes o erróneos utilizando mecanismos aceptables para la organización, dentro de tiempos
-- Escalabilidad, Capacidad del sistema de cambiar o personalizar sus componentes antes de su ejecución sin modificar su código fuente.
+- Configurabilidad, Capacidad del sistema de cambiar o personalizar sus componentes antes de su ejecución sin modificar su código fuente.
+- Escalabilidad, Capacidad del sistema de mantener el mismo nivel de servicio a incrementos significativos de cargas de trabajo, aumentando recursos computacionales.
 ?
 - Disponibilidad
 - Portabilidad
 - Escalabilidad
 - Configurabilidad
-- Recuperabilidad
+- Recuperabilidad
 
 ---
 

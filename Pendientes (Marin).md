@@ -7,12 +7,16 @@
 - [x] Hacer los [ejercicios en clase]([Ejercicios Sesión 6 - APO III.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1IhCtKYDIlSkjRs1jpxe3YzxUORynt9Pr#scrollTo=HowKEZdIDgyj)).
 - [x] Hacer los ejercicios planteados al final de las diapositivas.
 - [x] Estudiar SLD y Resolución normal para el seguimiento.
+- [x] Hacer los ejercicios de Prolog de la última presentación.
+- [ ] Avanzar en la integradora.
 
 ## Computación y Estructuras Discretas III
 - [x] Terminar la actividad de la Sesión 1 (y entenderla).
 - [x] Realizar apuntes de la presentación del jueves a partir de diapositivas.
 - [x] Estudiar para el seguimiento.
 - [x] Estudiar Pyformlang con el nuevo tema.
+- [x] Realizar tarea de gramática.
+- [ ] Avanzar en la integradora.
 
 ## Ingeniería de Software IV
 - [x] Realizar mapa conceptual del capítulo 2 del Swebok.
@@ -29,8 +33,12 @@
 - [x] Hacer los [ejercicios](https://docs.google.com/document/d/1nGPitgEpPJoOrJC9XsqOX1e1Xg4QtnjZosErt8o_pfo/edit?usp=sharing) de los diagramas.
 - [x] Hacer lectura próxima clase.
 - [x] Leer lectura debajo de Flynn.
-- [ ] Estudiar para el parcial (sábado 7).
-- [ ] Hacer tarea de Hello World.
+- [x] Estudiar para el parcial (sábado 7).
+- [x] Hacer tarea de Hello World.
+- [x] Hacer [exposición](https://miro.com/app/board/uXjVKhV5ND8=/?share_link_id=898425864480).
+- [x] Combinar el diagrama del Titanic con los patrones de almacenamiento.
+- [ ] Hacer el informe de Helloworld.
+- [ ] Modificar Helloworld para chat con hilos.
 
 ## Innovación y Emprendimiento I
 - [x] Revisar Intu (Semana 1).
@@ -38,7 +46,8 @@
 - [x] Revisar Intu (Semana 5).
 - [x] Terminar proyecto final de corte.
 - [x] Revisar Intu (Semana 6).
-- [ ] Revisar Intu (Semana 7).
+- [x] Revisar Intu (Semana 7).
+- [ ] Revisar Intu (Semana 8).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
@@ -49,6 +58,7 @@
 - [x] Hacer 16 ejercicios de alícuotas para el miércoles (MFP).
 - [x] Hacer taller de preparación del parcial I.
 - [x] Hacer parte del parcial I.
+- [x] Leer contenidos del correo.
 
 ## Sistemas Intensivos en Datos II
 - [x] Preparar la clase del 1 de agosto.
@@ -61,6 +71,8 @@
 - [x] Crear el sinónimo.
 - [x] Tener bien el esquema de estudiante, profesor y padre.
 - [x] Estudiar para el parcial (martes 3).
+- [ ] Hacer curso de [MongoDB](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). (6/12).
+- [x] Quiz de tablespaces en jueves.
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
@@ -69,7 +81,8 @@
 - [x] Leer el documento SRS.
 - [x] Calificar presentaciones y Jira.
 - [x] Enviarles videos de presentación a cada grupo.
-- [ ] Calificar primera entrega.
+- [x] Calificar primera entrega.
+- [x] Calificar talleres git.
 
 ## Semillero
  - [x] Reunión de configuración de Azure el 31 de julio a las 9:00 am.
@@ -78,4 +91,5 @@
  - [x] Cambiar manualmente los DOI de los documentos ya subidos desde la BD.
  - [x] Revisar la verificación de cuentas (no llega el correo de verificación).
  - [x] (OJS) Revisar problema con anuncios que no abre en producción.
- - [ ] Cambiar banner de Dataverse.
+ - [x] Cambiar banner de Dataverse.
+ - [ ] Hacer documentación de código asignado.
