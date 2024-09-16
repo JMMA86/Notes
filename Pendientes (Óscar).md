@@ -1,7 +1,5 @@
 ---
-
-kanban-plugin: list
-
+kanban-plugin: board
 ---
 
 ## APO
@@ -28,10 +26,18 @@ kanban-plugin: list
 
 ## Innovación
 
+- [ ] Hacer los mil post-its que dejó naranja
 
 
 ## Modelación
 
+- [ ] Preparar fórmula del gradiente geométrico
+
+
+## Monitoría
+
+- [ ] Preguntar por la TI1
+- [ ] Preguntar por la rúbrica del seguimiento 2
 
 
 ***
@@ -60,6 +66,6 @@ kanban-plugin: list
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[true,false,true,true,true,true,true]}
+{"kanban-plugin":"board","list-collapse":[true,false,true,true,false,false,false,false],"show-checkboxes":true}
 ```
 %%
