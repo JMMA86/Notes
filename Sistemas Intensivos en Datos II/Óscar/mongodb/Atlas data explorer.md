@@ -14,4 +14,3 @@ Interact and manage data from Atlas UI.
 ![[Pasted image 20240913170954.png]]
 
 ![[Pasted image 20240913171029.png]]
-

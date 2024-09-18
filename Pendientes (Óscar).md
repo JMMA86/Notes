@@ -1,14 +1,19 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## APO
 
+- [ ] Aprender prolog bien de una vez por todas
+- [ ] Integradora: @{2024-10-13}
 
 
 ## Ingesoft
 
 - [ ] Modificar el HelloWorld para que maneje un chat de forma asíncrona
+- [ ] Hacer el ejercicio de clasificación de requerimientos de la máquina de café (solo la tabla de clasificación)
 
 
 ## Francés
@@ -17,6 +22,7 @@ kanban-plugin: board
 
 ## Discretas
 
+- [ ] Tarea integradora: @{2024-10-06}
 
 
 ## Intensivos
@@ -26,18 +32,20 @@ kanban-plugin: board
 
 ## Innovación
 
-- [ ] Hacer los mil post-its que dejó naranja
+- [x] Hacer los mil post-its que dejó naranja
 
 
 ## Modelación
 
-- [ ] Preparar fórmula del gradiente geométrico
+- [x] Preparar fórmula del gradiente geométrico
 
 
 ## Monitoría
 
-- [ ] Preguntar por la TI1
-- [ ] Preguntar por la rúbrica del seguimiento 2
+- [x] Preguntar por la TI1
+- [x] Preguntar por la rúbrica del seguimiento 2
+- [ ] Calificar el seguimiento 2
+- [ ] Calificar la TI
 
 
 ***
@@ -66,6 +74,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,true,true,false,false,false,false],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[false,false,true,false,false,false,false,false],"show-checkboxes":true}
 ```
 %%
