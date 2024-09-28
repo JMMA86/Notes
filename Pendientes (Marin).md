@@ -71,7 +71,7 @@
 - [x] Crear el sinónimo.
 - [x] Tener bien el esquema de estudiante, profesor y padre.
 - [x] Estudiar para el parcial (martes 3).
-- [ ] Hacer curso de [MongoDB](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). (6/12).
+- [ ] Hacer curso de [MongoDB](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). (6/12) (wtf como que 6 de diciembre?).
 - [x] Quiz de tablespaces en jueves.
 
 ## Proyecto Integrador I (Monitoria)
