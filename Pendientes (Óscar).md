@@ -1,5 +1,7 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## Yo
@@ -27,9 +29,9 @@ kanban-plugin: board
 
 ## Intensivos
 
-- [ ] Investigar recuperabilidad @{2024-10-01}
-- [ ] Repasar lo comandos del control de transacciones @{2024-10-01}
-- [ ] Hacer la consulta optmizada del connect by @{2024-10-01}
+- [x] Hacer la consulta optmizada del connect by @{2024-10-01}
+- [x] Repasar lo comandos del control de transacciones @{2024-10-01}
+- [x] Investigar recuperabilidad @{2024-10-01}
 - [x] Hacer el curso de mongoDB @{2024-10-01}
 
 
@@ -56,7 +58,7 @@ kanban-plugin: board
 ## Modelación
 
 - [ ] Quiz de conceptos financieros @{2024-10-02}
-- [ ] Hacer los ejercicios de la explicación financiera simpel @{2024-10-02}
+- [ ] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
 - [ ] Parcial 2 @{2024-10-11}
 - [ ] Avance del parcial 2 @{2024-10-16}
 - [x] Preparar fórmula del gradiente geométrico
@@ -64,6 +66,7 @@ kanban-plugin: board
 
 ## Innovación
 
+- [x] "Hacer" unas lecturas y preparar un texto para la próxima clase
 - [x] Hacer autoevaluación
 - [x] Hacer evaluación en grupo
 - [x] Hacer el video de la entrega del proyecto @{2024-09-23}
@@ -96,6 +99,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false,true],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[false,false,false,true,false,false,false,false,true],"show-checkboxes":true}
 ```
 %%
