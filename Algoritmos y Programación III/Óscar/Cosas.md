@@ -157,7 +157,6 @@ $(8)T (2, 7)$
 $(9)\neg I (5, 8)$
 $(10)Y (3, 9)$
 $(11)\Box (6, 10)$
-
 ---
 Given the following hypothesis: 
 - If you are lactose intolerant, then you cannot eat ice cream. 
