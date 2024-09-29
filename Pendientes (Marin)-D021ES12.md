@@ -10,7 +10,7 @@
 - [x] Hacer los ejercicios de Prolog de la última presentación.
 - [x] Prepararse para el seguimiento de Prolog.
 - [x] Ejecutar los códigos de los slides y estudiar para el quiz.
-- [x] Terminar implementación en Python.
+- [ ] Terminar implementación en python.
 - [ ] Avanzar en la integradora.
 
 ## Computación y Estructuras Discretas III
@@ -56,7 +56,7 @@
 - [x] Revisar Intu (Semana 7).
 - [x] Revisar Intu (Semana 8).
 - [x] Hacer video final de corte.
-- [x] Revisar Intu (Semana 10).
+- [ ] Revisar Intu (Semana 10).
 
 ## Modelación Financiera de Proyectos
 - [x] Leer de la página 17 a la 21 del libro Matemáticas Financieras.
@@ -98,7 +98,7 @@
 - [x] Enviarles videos de presentación a cada grupo.
 - [x] Calificar primera entrega.
 - [x] Calificar primer taller git.
-- [x] Calificar segundo taller git.
+- [ ] Calificar segundo taller git.
 - [ ] Calificar Sprint 1.
 
 ## Semillero
@@ -111,4 +111,4 @@
  - [x] Cambiar banner de Dataverse.
  - [x] Hacer documentación de código asignado.
  - [x] Preguntarle a Fabián el tema de los métodos y consultas sin usar.
- - [x] Revisar el modelo de datos.
+ - [ ] Revisar el modelo de datos.
