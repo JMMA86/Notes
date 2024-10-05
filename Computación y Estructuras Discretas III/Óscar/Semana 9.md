@@ -1,4 +1,4 @@
-#Sesión #Discretas 
+# Sesión #Discretas
 
 $L = (aba* \cup bc+a)b*$ over $\Sigma = \{ a, b, c \}$
 
@@ -40,3 +40,6 @@ table:
   q_reject:
     ' ': {R: q_reject}
 ```
+
+This is how the notes must be taken
+
