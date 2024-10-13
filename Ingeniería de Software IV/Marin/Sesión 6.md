@@ -1,0 +1,1 @@
+El método QAW sirve para identificar los requerimientos de atributos de calidad que son arquitectónicamente relevantes.
