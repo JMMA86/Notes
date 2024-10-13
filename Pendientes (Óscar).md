@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## Ingesoft
 
+- [ ] Parcial II teórico @{2024-10-17}
+- [ ] Parcial práctico @{2024-10-20}
 - [x] Aprender prolog bien de una vez por todas
 - [x] Terminar la sub especificación de requerimientos @{2024-10-01}
 - [x] Modificar el HelloWorld para que maneje un chat de forma asíncrona @{2024-10-03}
@@ -15,7 +17,7 @@ kanban-plugin: board
 
 ## Monitoría
 
-- [ ] Calificar la TI @{2024-09-24}
+- [x] Calificar la TI @{2024-09-24}
 - [x] Preguntar por la estudiante de nataly
 - [x] Calificar el seguimiento 3
 - [x] Calificar el seguimiento 2
@@ -25,6 +27,7 @@ kanban-plugin: board
 
 ## Intensivos
 
+- [x] Hacer el laboratorio @{2024-10-08}
 - [x] Hacer la consulta optmizada del connect by @{2024-10-01}
 - [x] Repasar lo comandos del control de transacciones @{2024-10-01}
 - [x] Investigar recuperabilidad @{2024-10-01}
@@ -47,12 +50,13 @@ kanban-plugin: board
 
 ## Discretas
 
-- [ ] Tarea integradora: @{2024-10-06}
+- [x] Tarea integradora: @{2024-10-06}
 
 
 ## Modelación
 
-- [ ] Parcial 2 @{2024-10-11}
+- [ ] Taller del parcial II @{2024-10-16}
+- [ ] Parcial 2 @{2024-10-16}
 - [ ] Avance del parcial 2 @{2024-10-16}
 - [x] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
 - [x] Quiz de conceptos financieros @{2024-10-02}
@@ -61,6 +65,7 @@ kanban-plugin: board
 
 ## Innovación
 
+- [ ] Hacer los otros mil post its
 - [x] "Hacer" unas lecturas y preparar un texto para la próxima clase
 - [x] Hacer autoevaluación
 - [x] Hacer evaluación en grupo
@@ -99,6 +104,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,true,true,false,false,false,true,false],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[false,true,true,true,false,true,false,false,false],"show-checkboxes":true}
 ```
 %%

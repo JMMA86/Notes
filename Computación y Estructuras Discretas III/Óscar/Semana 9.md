@@ -2,7 +2,7 @@
 
 $L = (aba* \cup bc+a)b*$ over $\Sigma = \{ a, b, c \}$
 
-```yaml
+```
 # Maquina de Turing para el lenguaje L = (aba* ∪ bc+a)b*
 input: "ababca"
 blank: " "

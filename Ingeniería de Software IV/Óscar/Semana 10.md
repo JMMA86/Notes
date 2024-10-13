@@ -22,7 +22,7 @@ Sobre esto se debe preguntar cosas como la lógica de negocio, la implementació
 ## Paso 3:
 Aquí se presenta la vista arquitectónica preliminar del sistema, además se pregunta sobre las cosas importantes como si ya existía una arquitectura previa, y presentar un plan arquitectónico que pueda satisfacer las necesidades del cliente final.
 
-**Architectural driver**: Define los factores que afectan el diseño arquitectónico.
+**Architectural driver**: Aquello que se convierte en el objetivo principal, se expresa como un requerimiento de QA.
 
 ## Paso 4:
 Aquí se recomienda dar un break de 15 minutos, sobre estos se van a tomar los drivers arquitecturales que puedan ser más evidentes, durante este break también se tiene que clarificar la información que se otorgó durante este tiempo.
