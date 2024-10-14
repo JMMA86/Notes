@@ -64,7 +64,7 @@
 - [x] Revisar Intu (Semana 8).
 - [x] Hacer video final de corte.
 - [x] Revisar Intu (Semana 10).
-- [ ] Revisar Intu (Semana 11).
+- [x] Revisar Intu (Semana 11).
 - [x] Revisar Intu (Semana 12).
 
 ## Modelación Financiera de Proyectos
