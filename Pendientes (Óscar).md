@@ -55,9 +55,9 @@ kanban-plugin: board
 
 ## Modelación
 
-- [ ] Taller del parcial II @{2024-10-16}
 - [ ] Parcial 2 @{2024-10-16}
-- [ ] Avance del parcial 2 @{2024-10-16}
+- [ ] Taller del parcial II @{2024-10-16}
+- [x] Avance del parcial 2 @{2024-10-16}
 - [x] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
 - [x] Quiz de conceptos financieros @{2024-10-02}
 - [x] Preparar fórmula del gradiente geométrico
