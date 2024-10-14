@@ -79,6 +79,8 @@ commit;
 ##### 3. Continúe con el paso 2 de $T_{i}$ hasta el final.
 **A2**: Transferir el dinero a la cuenta en el otro banco sumando el valor actual más el monto transferido con una operación UPDATE.
 
+En este caso se realizó una transferencia de $40.000$, ya que era el dinero que sobraba de la cuenta origen (podría haber sido cualquier valor menor a este hasta $0$).
+
 ```SQL
 update BANCOA.cuentas
 set saldo = saldo + 40000
@@ -167,7 +169,7 @@ where id = 2;
 
 ![[Pasted image 20241012161659.png]]
 
-**B4**: Comprometer la transacción Tj con la instrucción COMMIT;
+**B4**: Comprometer la transacción $T_j$ con la instrucción COMMIT;
 
 ```SQL
 commit;
@@ -185,4 +187,56 @@ Banco B:
 
 ![[Pasted image 20241012161933.png]]
 
-Como podemos observar, los saldos son los mismos y no se presentó ningún inconveniente. Esto sucede porque el dinero transferido en cada caso siempre fue suficiente independientemente del orden en que se hacían los pasos. Por lo tanto, en este sentido podemos decir que ambas estrategias son válidas.
+Como podemos observar, los saldos son los mismos y no se presentó ningún inconveniente. Esto sucede porque el dinero transferido en cada caso siempre fue suficiente independientemente del orden en que se hacían los pasos. Por lo tanto, en este sentido podemos decir que ambas estrategias son válidas. 
+
+##### 6. Compare los resultados. Explique mediante esquema de planificación de transacciones.
+###### Estrategia A: Esquema de planificación
+1. **$T_i$ Paso A1**: Verificación del saldo de la cuenta origen en BANCOA (consulta `SELECT`).  
+   - $T_i$: `SELECT saldo FROM cuentas WHERE id = 1;`
+   - **Estado de la cuenta Cod1 en BANCOB: 100,000**
+
+2. **$T_j$**: Retiro de $60,000$ de la cuenta origen en BANCOA y confirmación de la transacción (`UPDATE` + `COMMIT`).  
+   - $T_j$: `UPDATE cuentas SET saldo = saldo - 60000 WHERE id = 1;`  
+   - **Nuevo estado de la cuenta Cod1 en BANCOB: 40,000**  
+
+3. **$T_i$ Paso A2**: Transferencia de $40,000$ de la cuenta origen en BANCOB (Cod1) a la cuenta destino en BANCOA (Cod2).  
+   - $T_i$: `UPDATE cuentas SET saldo = saldo - 40000 WHERE id = 1;`  
+   - **Nuevo estado de la cuenta Cod1 en BANCOB: 0**  
+
+4. **$T_i$ Paso A3**: Aumento del saldo en la cuenta destino (Cod2) de BANCOA.  
+   - $T_i$: `UPDATE BANCOA.cuentas SET saldo = saldo + 40000 WHERE id = 2;`  
+   - **Nuevo estado de la cuenta Cod2 en BANCOA: 190,000**  
+
+5. **$T_i$ Paso A4**: Confirmación de la transacción $T_i$ (`COMMIT`).  
+
+###### Estrategia B: Esquema de planificación
+1. **$T_j$**: Retiro de $60,000$ de la cuenta origen en BANCOB y confirmación inmediata (`UPDATE` + `COMMIT`).  
+   - $T_j$: `UPDATE cuentas SET saldo = saldo - 60000 WHERE id = 1;`  
+   - **Nuevo estado de la cuenta Cod1 en BANCOB: 40,000**
+
+2. **$T_i$ Paso B2**: Intento de restar los $40,000$ de la cuenta origen en BANCOB (Cod1).  
+   - $T_i$: `UPDATE cuentas SET saldo = saldo - 40000 WHERE id = 1;`  
+   - **Nuevo estado de la cuenta Cod1 en BANCOB: 0**  
+
+3. **$T_i$ Paso B3**: Aumento del saldo en la cuenta destino (Cod2) en BANCOA.  
+   - $T_i$: `UPDATE BANCOA.cuentas SET saldo = saldo + 40000 WHERE id = 2;`  
+   - **Nuevo estado de la cuenta Cod2 en BANCOA: 190,000**  
+
+4. **$T_i$ Paso B4**: Confirmación de la transacción $T_i$ (`COMMIT`).  
+
+###### Comparación de resultados
+Ambas estrategias producen los mismos resultados finales, lo que indica que, en este caso, el orden de las operaciones no afectó la consistencia de los datos. Sin embargo, esto fue posible porque siempre hubo fondos suficientes para realizar todas las transacciones.
+
+###### Análisis de planificación
+- **Estrategia A**: Aquí se verificó el saldo en $T_i$ antes del retiro de $T_j$, pero el retiro se completó antes de la transferencia en $T_i$, lo que permitió que el monto disponible disminuyera antes de la operación final.
+- **Estrategia B**: El retiro de $T_j$ se hizo primero, por lo que la transferencia en $T_i$ pudo completarse sin problemas ya que aún quedaba el saldo suficiente para realizarla.
+
+##### 7. Restaure los montos iniciales antes de proseguir con el siguiente caso.
+```SQL
+drop table cuentas;
+create table CUENTAS ( id number, saldo number );
+insert into cuentas values(1, 100000);
+insert into cuentas values(2, 150000);
+grant select, update on cuentas to BANCOB; -- Desde banco A
+grant select, update on cuentas to BANCOA; -- Desde banco B
+```
