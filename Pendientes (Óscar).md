@@ -65,7 +65,7 @@ kanban-plugin: board
 
 ## Innovación
 
-- [ ] Hacer los otros mil post its
+- [x] Hacer los otros mil post its
 - [x] "Hacer" unas lecturas y preparar un texto para la próxima clase
 - [x] Hacer autoevaluación
 - [x] Hacer evaluación en grupo
@@ -104,6 +104,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,true,true,true,false,true,false,false,false],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[false,true,true,true,false,true,false,true,false],"show-checkboxes":true}
 ```
 %%
