@@ -25,6 +25,7 @@
 - [x] Mirar el video de la próxima sesión y leer sobre el algoritmo CYK.
 - [x] Avanzar en la integradora.
 - [x] Estudiar para quiz de máquinas de Turing.
+- [ ] Hacer sustentación de la TI.
 - [ ] Hacer preguntas del miro.
 
 ## Ingeniería de Software IV
@@ -101,7 +102,7 @@
 - [x] Investigar recuperabilidad.
 - [x] Enviar solución caso de uso al correo.
 - [x] Terminar laboratorio.
-- [ ] Terminar parcial.
+- [x] Terminar parcial.
 
 ## Proyecto Integrador I (Monitoria)
 - [x] Agregar los miembros del salón al grupo.
