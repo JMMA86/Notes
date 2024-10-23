@@ -19,3 +19,10 @@ Los comandos de control de transacciones (TCL, por sus siglas en inglés) son un
     
 
 Estos comandos permiten controlar cómo y cuándo se confirman o revierten los cambios en una base de datos para garantizar la integridad de los datos.
+
+```Python
+for i in range(10):
+	print(i + 1)
+a = [x + 1 for x in range(10)]
+```
+

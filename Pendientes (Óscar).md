@@ -6,8 +6,8 @@ kanban-plugin: board
 
 ## Ingesoft
 
-- [ ] Parcial II teórico @{2024-10-17}
-- [ ] Parcial práctico @{2024-10-20}
+- [x] Parcial práctico @{2024-10-20}
+- [x] Parcial II teórico @{2024-10-17}
 - [x] Aprender prolog bien de una vez por todas
 - [x] Terminar la sub especificación de requerimientos @{2024-10-01}
 - [x] Modificar el HelloWorld para que maneje un chat de forma asíncrona @{2024-10-03}
@@ -17,6 +17,9 @@ kanban-plugin: board
 
 ## Monitoría
 
+- [ ] Calificar seguimiento 4
+- [ ] Calificar seguimiento 5
+- [ ] Revisar integradora 1 David Chicue
 - [x] Calificar la TI @{2024-09-24}
 - [x] Preguntar por la estudiante de nataly
 - [x] Calificar el seguimiento 3
@@ -27,6 +30,7 @@ kanban-plugin: board
 
 ## Intensivos
 
+- [ ] Terminar el taller 2 de mongo
 - [x] Hacer el laboratorio @{2024-10-08}
 - [x] Hacer la consulta optmizada del connect by @{2024-10-01}
 - [x] Repasar lo comandos del control de transacciones @{2024-10-01}
@@ -36,6 +40,7 @@ kanban-plugin: board
 
 ## Francés
 
+- [ ] Quiz próximo miércoles Horas, Vocabulario, Verbo Prénominaux
 - [x] Prepararse pal quiz siguiente semana @{2024-10-02}
 - [x] Hacer tarea semana 9
 - [x] Avanzar el proyecto @{2024-09-25}
@@ -44,7 +49,7 @@ kanban-plugin: board
 
 ## APO
 
-- [ ] Integradora: @{2024-10-13}
+- [x] Integradora: @{2024-10-13}
 - [x] Terminar el espacio de búsqueda del triki @{2024-10-01}
 
 
@@ -55,8 +60,8 @@ kanban-plugin: board
 
 ## Modelación
 
-- [ ] Parcial 2 @{2024-10-16}
-- [ ] Taller del parcial II @{2024-10-16}
+- [x] Parcial 2 @{2024-10-16}
+- [x] Taller del parcial II @{2024-10-16}
 - [x] Avance del parcial 2 @{2024-10-16}
 - [x] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
 - [x] Quiz de conceptos financieros @{2024-10-02}
@@ -75,7 +80,10 @@ kanban-plugin: board
 
 ## Yo
 
-- [ ] Competencia de CP en la javeriana @{2024-10-19}
+- [ ] Mirar lo la cuenta de Bancolombia
+- [ ] Preparse para el viaje @{2024-11-08}
+- [ ] Competencia regional @{2024-11-09}
+- [x] Competencia de CP en la javeriana @{2024-10-19}
 
 
 ***
@@ -104,6 +112,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,true,true,true,false,true,false,true,false],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false,true,true,true,true,false],"show-checkboxes":true}
 ```
 %%
