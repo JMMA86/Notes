@@ -60,7 +60,7 @@ Syntax:
 db.collection.find( <query>, <projection> )
 ```
 
-## [](https://github.com/10gen/curriculum/blob/develop/Application-Developer/06-CRUD-III/Lessons/02-return-specific-data/lesson-text/return-selected-fields.md#include-a-field)Include a Field
+## Include a Field
 
 To include a field, set its value to 1 in the projection document.
 

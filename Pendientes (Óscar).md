@@ -4,8 +4,35 @@ kanban-plugin: board
 
 ---
 
+## Francés
+
+- [ ] Quiz algún día Horas, Vocabulario, Verbo Prénominaux @{2024-11-01}
+- [x] Hacer los quizlets pendientes
+- [x] Prepararse pal quiz siguiente semana @{2024-10-02}
+- [x] Hacer tarea semana 9
+- [x] Avanzar el proyecto @{2024-09-25}
+- [x] Terminer le devoir du les copain
+
+
+## Yo
+
+- [ ] Hacer la reservación del hotel
+- [ ] Preparse para el viaje @{2024-11-08}
+- [ ] Competencia regional @{2024-11-09}
+- [x] Mirar lo la cuenta de Bancolombia
+- [x] Competencia de CP en la javeriana @{2024-10-19}
+
+
+## APO
+
+- [x] Sustentación @{2024-10-28}
+- [x] Integradora: @{2024-10-13}
+- [x] Terminar el espacio de búsqueda del triki @{2024-10-01}
+
+
 ## Ingesoft
 
+- [x] Terminar el diagrama de deploy de la máquina de café
 - [x] Parcial práctico @{2024-10-20}
 - [x] Parcial II teórico @{2024-10-17}
 - [x] Aprender prolog bien de una vez por todas
@@ -15,11 +42,15 @@ kanban-plugin: board
 - [x] Hacer el ejercicio de clasificación de requerimientos de la máquina de café (solo la tabla de clasificación)
 
 
+## Discretas
+
+- [x] Tarea integradora: @{2024-10-06}
+
+
 ## Monitoría
 
-- [ ] Calificar seguimiento 4
-- [ ] Calificar seguimiento 5
-- [ ] Revisar integradora 1 David Chicue
+- [x] Calificar seguimiento 4
+- [x] Revisar integradora 1 David Chicue
 - [x] Calificar la TI @{2024-09-24}
 - [x] Preguntar por la estudiante de nataly
 - [x] Calificar el seguimiento 3
@@ -30,42 +61,14 @@ kanban-plugin: board
 
 ## Intensivos
 
-- [ ] Terminar el taller 2 de mongo
+- [x] Quiz de mongo @{2024-10-29}
+- [x] Hacer taller Airbnb Mongo @{2024-10-29}
+- [x] Terminar el taller 2 de mongo
 - [x] Hacer el laboratorio @{2024-10-08}
 - [x] Hacer la consulta optmizada del connect by @{2024-10-01}
 - [x] Repasar lo comandos del control de transacciones @{2024-10-01}
 - [x] Investigar recuperabilidad @{2024-10-01}
 - [x] Hacer el curso de mongoDB @{2024-10-01}
-
-
-## Francés
-
-- [ ] Quiz próximo miércoles Horas, Vocabulario, Verbo Prénominaux
-- [x] Prepararse pal quiz siguiente semana @{2024-10-02}
-- [x] Hacer tarea semana 9
-- [x] Avanzar el proyecto @{2024-09-25}
-- [x] Terminer le devoir du les copain
-
-
-## APO
-
-- [x] Integradora: @{2024-10-13}
-- [x] Terminar el espacio de búsqueda del triki @{2024-10-01}
-
-
-## Discretas
-
-- [x] Tarea integradora: @{2024-10-06}
-
-
-## Modelación
-
-- [x] Parcial 2 @{2024-10-16}
-- [x] Taller del parcial II @{2024-10-16}
-- [x] Avance del parcial 2 @{2024-10-16}
-- [x] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
-- [x] Quiz de conceptos financieros @{2024-10-02}
-- [x] Preparar fórmula del gradiente geométrico
 
 
 ## Innovación
@@ -78,12 +81,14 @@ kanban-plugin: board
 - [x] Hacer los mil post-its que dejó naranja
 
 
-## Yo
+## Modelación
 
-- [ ] Mirar lo la cuenta de Bancolombia
-- [ ] Preparse para el viaje @{2024-11-08}
-- [ ] Competencia regional @{2024-11-09}
-- [x] Competencia de CP en la javeriana @{2024-10-19}
+- [x] Parcial 2 @{2024-10-16}
+- [x] Taller del parcial II @{2024-10-16}
+- [x] Avance del parcial 2 @{2024-10-16}
+- [x] Hacer los ejercicios de la explicación financiera simple @{2024-10-02}
+- [x] Quiz de conceptos financieros @{2024-10-02}
+- [x] Preparar fórmula del gradiente geométrico
 
 
 ***
@@ -112,6 +117,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false,true,true,true,true,false],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[false,false,true,true,true,true,true,true,true],"show-checkboxes":true,"new-card-insertion-method":"prepend"}
 ```
 %%
