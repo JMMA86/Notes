@@ -4,21 +4,11 @@ kanban-plugin: board
 
 ---
 
-## Francés
-
-- [ ] Quiz algún día Horas, Vocabulario, Verbo Prénominaux @{2024-11-01}
-- [x] Hacer los quizlets pendientes
-- [x] Prepararse pal quiz siguiente semana @{2024-10-02}
-- [x] Hacer tarea semana 9
-- [x] Avanzar el proyecto @{2024-09-25}
-- [x] Terminer le devoir du les copain
-
-
 ## Yo
 
-- [ ] Hacer la reservación del hotel
 - [ ] Preparse para el viaje @{2024-11-08}
 - [ ] Competencia regional @{2024-11-09}
+- [x] Hacer la reservación del hotel
 - [x] Mirar lo la cuenta de Bancolombia
 - [x] Competencia de CP en la javeriana @{2024-10-19}
 
@@ -28,6 +18,16 @@ kanban-plugin: board
 - [x] Sustentación @{2024-10-28}
 - [x] Integradora: @{2024-10-13}
 - [x] Terminar el espacio de búsqueda del triki @{2024-10-01}
+
+
+## Francés
+
+- [x] Quiz algún día Horas, Vocabulario, Verbo Prénominaux @{2024-11-01}
+- [x] Hacer los quizlets pendientes
+- [x] Prepararse pal quiz siguiente semana @{2024-10-02}
+- [x] Hacer tarea semana 9
+- [x] Avanzar el proyecto @{2024-09-25}
+- [x] Terminer le devoir du les copain
 
 
 ## Ingesoft
@@ -117,6 +117,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,true,true,true,true,true,true,true],"show-checkboxes":true,"new-card-insertion-method":"prepend"}
+{"kanban-plugin":"board","list-collapse":[false,true,true,true,true,true,true,true,true],"show-checkboxes":true,"new-card-insertion-method":"prepend"}
 ```
 %%

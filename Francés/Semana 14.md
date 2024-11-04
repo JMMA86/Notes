@@ -45,3 +45,6 @@ Está compuesto de dos palabras **Se** + **Verbe**.
 | Se    | Elle, Lui, Soi |
 | Nous  | Nous           |
 | Se    | Ils, Elles     |
+
+*Logement* = Alojamiento
+
