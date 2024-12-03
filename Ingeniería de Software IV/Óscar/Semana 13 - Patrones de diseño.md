@@ -1,4 +1,4 @@
-#Sesión #Ingesoft 
+	#Sesión #Ingesoft 
 
 # Patrones de diseño
 Estos nacen de los estilos de arquitectura, cundo un componente muy similar empieza a madurar al punto en el que ya es plenamente replicable y generalizable, se crea, un patrón de diseño.
